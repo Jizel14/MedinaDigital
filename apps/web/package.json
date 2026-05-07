@@ -10,6 +10,7 @@
   },
   "scripts": {
     "dev": "next dev",
+    "dev:clean": "node -e \"require('fs').rmSync('node_modules/.cache/next-medina', { recursive: true, force: true }); console.log('cache cleared')\" && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
