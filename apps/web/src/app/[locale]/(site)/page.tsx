@@ -12,6 +12,7 @@ import {
 } from '@/lib/data';
 import { HomeHero } from '@/components/home/home-hero';
 import { CategoryStrip } from '@/components/home/category-strip';
+import { BestSellersDome } from '@/components/home/best-sellers-dome';
 import { FeaturedProducts } from '@/components/home/featured-products';
 import { RegionsStrip } from '@/components/home/regions-strip';
 
@@ -42,6 +43,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
         regions={regions}
       />
       <CategoryStrip categories={categories} locale={locale} />
+      <BestSellersDome products={allProducts} locale={locale} />
       <FeaturedProducts products={featured} regionsBySlug={regionsBySlug} locale={locale} />
       <RegionsStrip regions={regions} locale={locale} />
     </main>
