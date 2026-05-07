@@ -1,0 +1,74 @@
+import { getTranslations } from 'next-intl/server';
+import type { Locale } from '@medina/shared-types';
+import { Container, Button, ZelligePattern } from '@medina/ui';
+import { Link } from '@/i18n/navigation';
+
+export interface HomeHeroProps {
+  locale: Locale;
+  workshops: number;
+  products: number;
+}
+
+export async function HomeHero({ locale, workshops, products }: HomeHeroProps) {
+  const t = await getTranslations({ locale });
+
+  return (
+    <section className="relative overflow-hidden">
+      {/* Soft zellige pattern background */}
+      <div
+        aria-hidden
+        className="absolute inset-0 -z-10 text-[color:var(--color-clay-700)]"
+        style={{
+          backgroundImage:
+            "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' width='64' height='64'><path d='M32 16 L34.3 26.4 L42 21.4 L37 29.1 L47.4 31.4 L37 33.7 L42 41.4 L34.3 36.4 L32 46.8 L29.7 36.4 L22 41.4 L27 33.7 L16.6 31.4 L27 29.1 L22 21.4 L29.7 26.4 Z' fill='%238B3A24' opacity='0.06'/></svg>\")",
+          backgroundRepeat: 'repeat',
+        }}
+      />
+      <div
+        aria-hidden
+        className="absolute inset-x-0 top-0 -z-10 h-[120%] bg-gradient-to-b from-[color:var(--color-clay-50)] via-[color:var(--color-clay-100)] to-transparent"
+      />
+
+      <Container size="lg" className="relative pt-20 pb-24 md:pt-28 md:pb-32">
+        <div className="max-w-3xl">
+          <p className="mb-6 inline-flex items-center gap-2 text-xs uppercase tracking-[var(--tracking-label)] text-[color:var(--color-muted)]">
+            <ZelligePattern
+              size={20}
+              opacity={0.7}
+              className="text-[color:var(--color-clay-600)]"
+            />
+            {t('metadata.tagline')}
+          </p>
+          <h1
+            className="italic"
+            style={{
+              fontFamily: 'var(--font-display)',
+              fontWeight: 600,
+              fontSize: 'clamp(2.5rem, 6vw, 5rem)',
+              lineHeight: 1.05,
+              letterSpacing: 'var(--tracking-display)',
+              color: 'var(--color-clay-700)',
+            }}
+          >
+            {t('home.heroTitle')}
+          </h1>
+          <p
+            className="mt-6 max-w-2xl text-[color:var(--color-ink-700)]"
+            style={{ fontSize: 'var(--text-lg)', lineHeight: 1.55 }}
+          >
+            {t('home.heroLead', { count: workshops, products })}
+          </p>
+
+          <div className="mt-10 flex flex-wrap items-center gap-4">
+            <Button asChild variant="primary" size="lg">
+              <Link href="/search">{t('common.discover')}</Link>
+            </Button>
+            <Button asChild variant="ornament" size="md">
+              <Link href="/about">{t('common.learnMore')}</Link>
+            </Button>
+          </div>
+        </div>
+      </Container>
+    </section>
+  );
+}

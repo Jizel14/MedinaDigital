@@ -51,16 +51,26 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button
   { variant, size, asChild = false, leadingIcon, trailingIcon, children, className, ...rest },
   ref,
 ) {
-  const Comp = asChild ? Slot : 'button';
   // Ornament variant gets the zellige star automatically as leading icon.
   const lead = leadingIcon ?? (variant === 'ornament' ? <StarOrnament size="1em" /> : null);
+  const classes = cn(buttonVariants({ variant, size }), className);
+
+  // asChild path forwards props to the single child element (e.g. Next Link).
+  // Radix Slot requires exactly one React child, so we don't add wrapper nodes.
+  if (asChild) {
+    return (
+      <Slot ref={ref} className={classes} {...rest}>
+        {children}
+      </Slot>
+    );
+  }
 
   return (
-    <Comp ref={ref} className={cn(buttonVariants({ variant, size }), className)} {...rest}>
+    <button ref={ref} className={classes} {...rest}>
       {lead}
       <span>{children}</span>
       {trailingIcon}
-    </Comp>
+    </button>
   );
 });
 
