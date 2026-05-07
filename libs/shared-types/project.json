@@ -1,0 +1,21 @@
+{
+  "name": "shared-types",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared-types/src",
+  "projectType": "library",
+  "tags": ["scope:shared"],
+  "targets": {
+    "typecheck": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsc --noEmit -p libs/shared-types/tsconfig.json"
+      }
+    },
+    "validate-seed": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsx libs/shared-types/src/scripts/validate-seed.ts"
+      }
+    }
+  }
+}

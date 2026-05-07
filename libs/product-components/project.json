@@ -1,0 +1,7 @@
+{
+  "name": "product-components",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/product-components/src",
+  "projectType": "library",
+  "tags": ["scope:product"]
+}

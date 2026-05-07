@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "siteName": "Médina Digital",
+    "tagline": "Verified handmade craft from Tunisia",
+    "description": "Handcrafted objects from Tunisian artisans, every piece traced from the workshop."
+  },
+  "nav": {
+    "shop": "Shop",
+    "ceramics": "Ceramics",
+    "textile": "Textile",
+    "leather": "Leather",
+    "jewelry": "Jewelry",
+    "wood": "Wood",
+    "search": "Search",
+    "about": "About"
+  },
+  "common": {
+    "discover": "Discover",
+    "learnMore": "Learn more",
+    "verified": "Verified",
+    "viewAll": "View all",
+    "readStory": "Read the story",
+    "fromRegion": "From {region}",
+    "byArtisan": "By {artisan}"
+  },
+  "home": {
+    "heroTitle": "Tunisian craft, traced to the source",
+    "heroLead": "{count} workshops across Tunisia. {products} pieces with a passport.",
+    "categoriesTitle": "Browse by craft",
+    "featuredTitle": "Featured this week",
+    "regionsTitle": "Regions of Tunisia"
+  },
+  "search": {
+    "title": "All products",
+    "filters": "Filters",
+    "category": "Category",
+    "region": "Region",
+    "material": "Material",
+    "price": "Price",
+    "verifiedOnly": "Verified only",
+    "sort": "Sort",
+    "sortNewest": "Newest",
+    "sortPriceAsc": "Price · low to high",
+    "sortPriceDesc": "Price · high to low",
+    "noResults": "No products match these filters.",
+    "resultsCount": "{count, plural, =0 {No results} =1 {1 product} other {# products}}"
+  },
+  "product": {
+    "materials": "Materials",
+    "dimensions": "Dimensions",
+    "weight": "Weight",
+    "origin": "Origin",
+    "story": "The story",
+    "artisanQuote": "Meet {name}",
+    "trustTagCta": "View the digital passport",
+    "related": "From the same workshop"
+  },
+  "trusttag": {
+    "title": "Digital Product Passport",
+    "verifiedAt": "Verified on {date} by Médina Digital",
+    "carbonFootprint": "Carbon footprint",
+    "waterUsage": "Water usage",
+    "energySource": "Energy source",
+    "lifetime": "Expected lifetime",
+    "care": "Care",
+    "endOfLife": "End of life",
+    "repair": "Repair options",
+    "notMeasured": "Not yet measured"
+  },
+  "footer": {
+    "tagline": "Tunisian craft. Traced. Verified.",
+    "legal": "Legal",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "imprint": "Imprint"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "notFoundLead": "We can't find what you were looking for. Let's go back home.",
+    "backHome": "Back to home"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "siteName": "Médina Digital",
+    "tagline": "صناعة تقليدية تونسية، محققة من المصدر",
+    "description": "أشياء معمولة بالإيد من الصنّاع التوانسة. كل قطعة عندها passeport."
+  },
+  "nav": {
+    "shop": "الحانوت",
+    "ceramics": "الخزف",
+    "textile": "النسيج",
+    "leather": "الجلد",
+    "jewelry": "المجوهرات",
+    "wood": "الخشب",
+    "search": "بحث",
+    "about": "علينا"
+  },
+  "common": {
+    "discover": "اكتشف",
+    "learnMore": "أكثر معلومات",
+    "verified": "محقق",
+    "viewAll": "اعرض الكل",
+    "readStory": "اقرا القصة",
+    "fromRegion": "من {region}",
+    "byArtisan": "من عند {artisan}"
+  },
+  "home": {
+    "heroTitle": "[À VALIDER PME] الصناعة التقليدية التونسية، محققة من المصدر",
+    "heroLead": "{count} ورشة في تونس. {products} قطعة معاها passeport.",
+    "categoriesTitle": "اكتشف حسب الصنعة",
+    "featuredTitle": "[À VALIDER PME] في الواجهة هاذ الجمعة",
+    "regionsTitle": "[À VALIDER PME] جهات تونس"
+  },
+  "search": {
+    "title": "[À VALIDER PME] الكل المنتوجات",
+    "filters": "الفلاتر",
+    "category": "الصنف",
+    "region": "الجهة",
+    "material": "المادة",
+    "price": "الثمن",
+    "verifiedOnly": "[À VALIDER PME] المحققة برك",
+    "sort": "رتّب",
+    "sortNewest": "[À VALIDER PME] الأجدد",
+    "sortPriceAsc": "[À VALIDER PME] الثمن · من الأقل",
+    "sortPriceDesc": "[À VALIDER PME] الثمن · من الأكثر",
+    "noResults": "[À VALIDER PME] ما فمّاش منتوج موافق هاذي الفلاتر.",
+    "resultsCount": "{count, plural, =0 {ما فمّاش} =1 {منتوج واحد} other {# منتوجات}}"
+  },
+  "product": {
+    "materials": "المواد",
+    "dimensions": "الأبعاد",
+    "weight": "[À VALIDER PME] الوزن",
+    "origin": "الأصل",
+    "story": "القصة",
+    "artisanQuote": "[À VALIDER PME] اعرف {name}",
+    "trustTagCta": "[À VALIDER PME] شوف الـpasseport الرقمي",
+    "related": "[À VALIDER PME] من نفس الورشة"
+  },
+  "trusttag": {
+    "title": "[À VALIDER PME] passeport المنتج الرقمي",
+    "verifiedAt": "[À VALIDER PME] محقق نهار {date} من Médina Digital",
+    "carbonFootprint": "[À VALIDER PME] البصمة الكربونية",
+    "waterUsage": "[À VALIDER PME] الماء المستعمل",
+    "energySource": "[À VALIDER PME] مصدر الطاقة",
+    "lifetime": "[À VALIDER PME] العمر المتوقع",
+    "care": "[À VALIDER PME] العناية",
+    "endOfLife": "[À VALIDER PME] في الآخر",
+    "repair": "[À VALIDER PME] خيارات التصليح",
+    "notMeasured": "[À VALIDER PME] ما تقاسش بعد"
+  },
+  "footer": {
+    "tagline": "[À VALIDER PME] صناعة تقليدية تونسية. محققة. مضمونة.",
+    "legal": "قانوني",
+    "terms": "[À VALIDER PME] الشروط",
+    "privacy": "[À VALIDER PME] الخصوصية",
+    "imprint": "[À VALIDER PME] الناشر"
+  },
+  "errors": {
+    "notFound": "[À VALIDER PME] الصفحة موش موجودة",
+    "notFoundLead": "[À VALIDER PME] ما لقيناش الي تلوّج عليه. ارجع للدار.",
+    "backHome": "[À VALIDER PME] ارجع للدار"
+  }
+}

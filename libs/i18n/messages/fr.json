@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "siteName": "Médina Digital",
+    "tagline": "Artisanat tunisien vérifié, tracé à la source",
+    "description": "Objets faits main par les artisans tunisiens. Chaque pièce a un passeport."
+  },
+  "nav": {
+    "shop": "Boutique",
+    "ceramics": "Céramique",
+    "textile": "Textile",
+    "leather": "Cuir",
+    "jewelry": "Bijoux",
+    "wood": "Bois",
+    "search": "Rechercher",
+    "about": "À propos"
+  },
+  "common": {
+    "discover": "Découvrir",
+    "learnMore": "En savoir plus",
+    "verified": "Vérifié",
+    "viewAll": "Voir tout",
+    "readStory": "Lire l'histoire",
+    "fromRegion": "Région : {region}",
+    "byArtisan": "Par {artisan}"
+  },
+  "home": {
+    "heroTitle": "L'artisanat tunisien, tracé à la source",
+    "heroLead": "{count} ateliers en Tunisie. {products} pièces avec un passeport.",
+    "categoriesTitle": "Explorer par métier",
+    "featuredTitle": "À la une cette semaine",
+    "regionsTitle": "Régions de Tunisie"
+  },
+  "search": {
+    "title": "Tous les produits",
+    "filters": "Filtres",
+    "category": "Catégorie",
+    "region": "Région",
+    "material": "Matériau",
+    "price": "Prix",
+    "verifiedOnly": "Vérifiés uniquement",
+    "sort": "Trier",
+    "sortNewest": "Les plus récents",
+    "sortPriceAsc": "Prix · croissant",
+    "sortPriceDesc": "Prix · décroissant",
+    "noResults": "Aucun produit ne correspond à ces filtres.",
+    "resultsCount": "{count, plural, =0 {Aucun résultat} =1 {1 produit} other {# produits}}"
+  },
+  "product": {
+    "materials": "Matériaux",
+    "dimensions": "Dimensions",
+    "weight": "Poids",
+    "origin": "Origine",
+    "story": "L'histoire",
+    "artisanQuote": "Découvrir {name}",
+    "trustTagCta": "Voir le passeport numérique",
+    "related": "Du même atelier"
+  },
+  "trusttag": {
+    "title": "Passeport produit numérique",
+    "verifiedAt": "Vérifié le {date} par Médina Digital",
+    "carbonFootprint": "Empreinte carbone",
+    "waterUsage": "Eau utilisée",
+    "energySource": "Source d'énergie",
+    "lifetime": "Durée de vie estimée",
+    "care": "Entretien",
+    "endOfLife": "Fin de vie",
+    "repair": "Options de réparation",
+    "notMeasured": "Pas encore mesuré"
+  },
+  "footer": {
+    "tagline": "Artisanat tunisien. Tracé. Vérifié.",
+    "legal": "Mentions légales",
+    "terms": "CGU",
+    "privacy": "Confidentialité",
+    "imprint": "Mentions"
+  },
+  "errors": {
+    "notFound": "Page introuvable",
+    "notFoundLead": "Nous n'avons pas trouvé ce que vous cherchiez. Retournons à l'accueil.",
+    "backHome": "Retour à l'accueil"
+  }
+}

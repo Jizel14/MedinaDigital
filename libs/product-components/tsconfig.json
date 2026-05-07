@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../dist/libs/product-components",
+    "declaration": true,
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
