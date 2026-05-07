@@ -1,6 +1,6 @@
-import type { Localized } from './locale.js';
-import type { RegionSlug } from './region.js';
-import type { CategorySlug } from './category.js';
+import type { Localized } from './locale';
+import type { RegionSlug } from './region';
+import type { CategorySlug } from './category';
 
 export interface Artisan {
   id: string;

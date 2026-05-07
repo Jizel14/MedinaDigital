@@ -1,7 +1,7 @@
 import { z } from 'zod';
-import { LOCALES, type Locale } from '../locale.js';
-import { CATEGORY_SLUGS } from '../category.js';
-import { REGION_SLUGS } from '../region.js';
+import { LOCALES, type Locale } from '../locale';
+import { CATEGORY_SLUGS } from '../category';
+import { REGION_SLUGS } from '../region';
 
 const slugRegex = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 

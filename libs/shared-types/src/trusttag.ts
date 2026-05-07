@@ -1,6 +1,6 @@
-import type { Localized } from './locale.js';
-import type { RegionSlug } from './region.js';
-import type { ProductMaterial } from './product.js';
+import type { Localized } from './locale';
+import type { RegionSlug } from './region';
+import type { ProductMaterial } from './product';
 
 export type EnergySource = 'grid' | 'solar' | 'mixed';
 

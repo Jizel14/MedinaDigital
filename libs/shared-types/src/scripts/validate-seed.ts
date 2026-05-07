@@ -9,7 +9,7 @@ import { readFile } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { z } from 'zod';
-import { seedFileSchemas, type SeedKey } from '../schemas/index.js';
+import { seedFileSchemas, type SeedKey } from '../schemas/index';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '../../../..');

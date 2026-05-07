@@ -1,5 +1,5 @@
-import type { Localized } from './locale.js';
-import type { CategorySlug } from './category.js';
+import type { Localized } from './locale';
+import type { CategorySlug } from './category';
 
 export const REGION_SLUGS = [
   'nabeul',

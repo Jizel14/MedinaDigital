@@ -1,6 +1,6 @@
-import type { Localized } from './locale.js';
-import type { CategorySlug } from './category.js';
-import type { RegionSlug } from './region.js';
+import type { Localized } from './locale';
+import type { CategorySlug } from './category';
+import type { RegionSlug } from './region';
 
 export interface ProductDimensions {
   lengthCm: number;

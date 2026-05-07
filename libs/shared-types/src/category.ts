@@ -1,4 +1,4 @@
-import type { Localized } from './locale.js';
+import type { Localized } from './locale';
 
 export const CATEGORY_SLUGS = ['ceramics', 'textile', 'leather', 'jewelry', 'wood'] as const;
 export type CategorySlug = (typeof CATEGORY_SLUGS)[number];

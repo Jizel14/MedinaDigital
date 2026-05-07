@@ -1,5 +1,5 @@
-import type { CategorySlug } from './category.js';
-import type { RegionSlug } from './region.js';
+import type { CategorySlug } from './category';
+import type { RegionSlug } from './region';
 
 export type SortKey = 'newest' | 'price-asc' | 'price-desc';
 
