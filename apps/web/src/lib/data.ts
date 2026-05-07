@@ -26,19 +26,40 @@ import trusttagsSeed from '@/data/seed/trusttags.json';
 const PLACEHOLDER = '/images/seed/placeholder.svg';
 
 /**
- * Phase 5 ships before real photos. Aliases every non-svg seed image path to
- * a single SVG placeholder. When real photos land at the paths referenced
- * inside products.json/artisans.json/categories.json, drop the alias.
+ * Phase 5 ships before real photos.
+ *
+ * Strategy:
+ *   1. Product photos: the seed names them <slug>-N.webp; we ship a single
+ *      generated <slug>-1.svg per product (see scripts/generate-product-
+ *      placeholders.ts). Map the first photo to the SVG, fall back to
+ *      placeholder for -2 / -3.
+ *   2. Artisan portraits / category heroes / etc.: no per-entity SVG yet,
+ *      use the global placeholder.
+ *   3. When real photos drop in (any extension), they take precedence.
+ *
+ * Drop the function entirely once /images/seed/ is fully populated.
  */
 function resolveImage(path: string | undefined): string {
   if (!path) return PLACEHOLDER;
+  return path;
+}
+
+function resolveProductPhoto(path: string, photoIndex: number): string {
+  if (!path) return PLACEHOLDER;
+  // /images/seed/products/<slug>-N.webp → first photo gets the generated SVG.
+  const m = path.match(/^\/images\/seed\/products\/(.+)-(\d+)\.[a-z]+$/);
+  if (m && photoIndex === 0) {
+    return `/images/seed/products/${m[1]}-1.svg`;
+  }
+  // For -2 / -3 we still fall back to the global placeholder (we only
+  // generated one variant per product).
   if (path.startsWith('/images/seed/') && !path.endsWith('.svg')) return PLACEHOLDER;
   return path;
 }
 
 const products = (productsSeed as Product[]).map((p) => ({
   ...p,
-  photos: p.photos.map(resolveImage),
+  photos: p.photos.map((photo, i) => resolveProductPhoto(photo, i)),
 }));
 
 const artisans = (artisansSeed as Artisan[]).map((a) => ({
