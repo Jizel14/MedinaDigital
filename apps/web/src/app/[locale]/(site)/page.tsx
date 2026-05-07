@@ -35,7 +35,12 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
 
   return (
     <main>
-      <HomeHero locale={locale} workshops={artisans.length} products={allProducts.length} />
+      <HomeHero
+        locale={locale}
+        workshops={artisans.length}
+        products={allProducts.length}
+        regions={regions}
+      />
       <CategoryStrip categories={categories} locale={locale} />
       <FeaturedProducts products={featured} regionsBySlug={regionsBySlug} locale={locale} />
       <RegionsStrip regions={regions} locale={locale} />
