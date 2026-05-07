@@ -8,9 +8,9 @@ const cardVariants = cva(
     variants: {
       variant: {
         default:
-          'rounded-[var(--radius-sm)_var(--radius-sm)_var(--radius-xl)_var(--radius-sm)] shadow-[var(--shadow-soft)]',
+          '[border-radius:var(--radius-sm)_var(--radius-sm)_var(--radius-xl)_var(--radius-sm)] shadow-[var(--shadow-soft)]',
         flat: 'rounded-[var(--radius-sm)] border border-[color:var(--color-border)]',
-        lift: 'rounded-[var(--radius-sm)_var(--radius-sm)_var(--radius-xl)_var(--radius-sm)] shadow-[var(--shadow-card)]',
+        lift: '[border-radius:var(--radius-sm)_var(--radius-sm)_var(--radius-xl)_var(--radius-sm)] shadow-[var(--shadow-card)]',
       },
     },
     defaultVariants: { variant: 'default' },

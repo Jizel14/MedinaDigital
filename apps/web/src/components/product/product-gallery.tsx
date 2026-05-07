@@ -15,7 +15,7 @@ export function ProductGallery({ photos, alt }: ProductGalleryProps) {
 
   return (
     <div className="space-y-4">
-      <div className="relative aspect-square w-full overflow-hidden bg-[color:var(--color-clay-200)] rounded-[var(--radius-sm)_var(--radius-sm)_var(--radius-xl)_var(--radius-sm)]">
+      <div className="relative aspect-square w-full overflow-hidden bg-[color:var(--color-clay-200)] [border-radius:var(--radius-sm)_var(--radius-sm)_var(--radius-xl)_var(--radius-sm)]">
         {main && (
           <Image
             src={main}

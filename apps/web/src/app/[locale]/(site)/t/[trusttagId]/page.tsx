@@ -86,7 +86,7 @@ export default async function TrustTagPage({
           href={`/products/${product.slug}`}
           className="block focus-visible:outline-2 focus-visible:outline-offset-4"
         >
-          <div className="relative aspect-[16/9] w-full overflow-hidden bg-[color:var(--color-clay-200)] rounded-[var(--radius-sm)_var(--radius-sm)_var(--radius-xl)_var(--radius-sm)]">
+          <div className="relative aspect-[16/9] w-full overflow-hidden bg-[color:var(--color-clay-200)] [border-radius:var(--radius-sm)_var(--radius-sm)_var(--radius-xl)_var(--radius-sm)]">
             {product.photos[0] && (
               <Image
                 src={product.photos[0]}

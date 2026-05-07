@@ -32,9 +32,9 @@ export async function RegionsStrip({ regions, locale }: RegionsStripProps) {
             <li key={r.slug}>
               <Link
                 href={{ pathname: '/search', query: { region: r.slug } }}
-                className="inline-flex items-center gap-2 border border-[color:var(--color-border)] bg-[color:var(--color-card)] px-4 py-2 text-sm transition-all duration-[var(--duration-fast)] hover:border-[color:var(--color-clay-700)] hover:text-[color:var(--color-clay-700)]"
+                className="inline-flex items-center gap-2 border border-[color:var(--color-border)] bg-[color:var(--color-card)] px-4 py-2 text-sm transition-all duration-[var(--duration-fast)] hover:border-[color:var(--color-olive-700)] hover:text-[color:var(--color-olive-700)] hover:bg-[color:var(--color-olive-100)]"
               >
-                <StarOrnament size={9} className="text-[color:var(--color-clay-600)] opacity-70" />
+                <StarOrnament size={9} className="text-[color:var(--color-olive-700)]" />
                 {r.name[locale]}
               </Link>
             </li>

@@ -16,10 +16,34 @@ export interface ZelligeConstellationProps {
 const VIEWBOX_W = 1600;
 const VIEWBOX_H = 900;
 
-// Eight-pointed zellige star path, centered at origin, radius 1 unit.
-// Scaled at draw time so we can tune size per usage.
-const STAR_PATH =
-  'M0 -1 L0.142 -0.342 L0.625 -0.625 L0.342 -0.142 L1 0 L0.342 0.142 L0.625 0.625 L0.142 0.342 L0 1 L-0.142 0.342 L-0.625 0.625 L-0.342 0.142 L-1 0 L-0.342 -0.142 L-0.625 -0.625 L-0.142 -0.342 Z';
+// Eight-pointed zellige star path. Coordinates are at the final px size so
+// Framer Motion can animate scale/rotate via style transform without fighting
+// an SVG `transform` attribute (the two paths conflict and the SVG one loses).
+const STAR_RADIUS = 32;
+const STAR_PATH = (() => {
+  const r = STAR_RADIUS;
+  const i = r * 0.4; // inner radius for star points
+  const m = r * 0.142; // midpoint inflection
+  return [
+    `M0 ${-r}`,
+    `L${m} ${-i / 1.17}`,
+    `L${i} ${-i}`,
+    `L${i / 1.17} ${-m}`,
+    `L${r} 0`,
+    `L${i / 1.17} ${m}`,
+    `L${i} ${i}`,
+    `L${m} ${i / 1.17}`,
+    `L0 ${r}`,
+    `L${-m} ${i / 1.17}`,
+    `L${-i} ${i}`,
+    `L${-i / 1.17} ${m}`,
+    `L${-r} 0`,
+    `L${-i / 1.17} ${-m}`,
+    `L${-i} ${-i}`,
+    `L${-m} ${-i / 1.17}`,
+    'Z',
+  ].join(' ');
+})();
 
 const CATEGORY_LABEL: Record<Locale, Record<CategorySlug, string>> = {
   en: {
@@ -111,13 +135,7 @@ export function ZelligeConstellation({
         </g>
 
         {/* Lines: stroke-dashed, drawn on mount via pathLength. */}
-        <g
-          stroke="var(--color-clay-600)"
-          strokeWidth={1.5}
-          strokeDasharray="4 8"
-          fill="none"
-          opacity={0.5}
-        >
+        <g strokeWidth={2} strokeDasharray="6 10" fill="none">
           {lines.map((l, i) => (
             <motion.line
               key={l.key}
@@ -125,11 +143,12 @@ export function ZelligeConstellation({
               y1={l.from.y}
               x2={l.to.x}
               y2={l.to.y}
+              stroke={i % 2 === 0 ? 'var(--color-clay-600)' : 'var(--color-olive-500)'}
               variants={{
                 hidden: { pathLength: 0, opacity: 0 },
                 visible: {
                   pathLength: 1,
-                  opacity: 0.5,
+                  opacity: 0.7,
                   transition: {
                     delay: 0.4 + i * 0.08,
                     duration: durations.slow,
@@ -144,11 +163,9 @@ export function ZelligeConstellation({
         {/* Stars + region markers. */}
         {points.map((p, i) => {
           const isHovered = hovered === p.slug;
-          const starSize = 28; // base radius
           return (
-            <g
+            <motion.g
               key={p.slug}
-              transform={`translate(${p.x}, ${p.y})`}
               onMouseEnter={() => setHovered(p.slug)}
               onMouseLeave={() => setHovered(null)}
               onFocus={() => setHovered(p.slug)}
@@ -156,35 +173,40 @@ export function ZelligeConstellation({
               tabIndex={0}
               role="button"
               aria-label={`${p.name} · ${p.knownFor.map((k) => CATEGORY_LABEL[locale][k]).join(', ')}`}
-              className="cursor-pointer outline-none focus-visible:[&_path]:stroke-[color:var(--color-clay-700)]"
+              className="cursor-pointer outline-none"
+              // Position via SVG transform attr — motion only animates the inner star,
+              // not the group's translation. Group lives in SVG userspace coords.
+              style={{ transformOrigin: `${p.x}px ${p.y}px` }}
+              transform={`translate(${p.x}, ${p.y})`}
             >
               {/* Halo ring on hover. */}
               <motion.circle
                 cx={0}
                 cy={0}
-                r={starSize * 1.8}
-                fill="var(--color-clay-300)"
-                initial={{ opacity: 0, scale: 0.6 }}
-                animate={{
-                  opacity: isHovered ? 0.35 : 0,
-                  scale: isHovered ? 1 : 0.6,
-                }}
+                r={STAR_RADIUS * 1.8}
+                fill="var(--color-olive-500)"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: isHovered ? 0.25 : 0 }}
                 transition={{ duration: durations.fast, ease: [...easeMedina] }}
               />
 
-              {/* Star itself: scale + rotate-in on mount, idle pulse, scale on hover. */}
+              {/* Star itself. STAR_PATH already at final px radius (32),
+                  so we only animate opacity + rotation here. The 'scale' fade-in
+                  is replaced by an opacity + slight rotate intro that won't
+                  collide with SVG transform attrs. */}
               <motion.path
                 d={STAR_PATH}
-                transform={`scale(${starSize})`}
-                fill="var(--color-clay-700)"
+                fill={i % 2 === 0 ? 'var(--color-clay-700)' : 'var(--color-olive-700)'}
+                stroke="var(--color-clay-100)"
+                strokeWidth={isHovered ? 2 : 0}
+                initial={reduced ? false : { opacity: 0, rotate: -30 }}
                 variants={{
-                  hidden: { scale: 0, rotate: -45, opacity: 0 },
+                  hidden: { opacity: 0, rotate: -30 },
                   visible: {
-                    scale: 1,
-                    rotate: 0,
                     opacity: 1,
+                    rotate: 0,
                     transition: {
-                      delay: 0.8 + i * 0.1,
+                      delay: 0.8 + i * 0.12,
                       duration: durations.base * 1.5,
                       ease: [...easeMedina],
                     },
@@ -192,23 +214,14 @@ export function ZelligeConstellation({
                 }}
                 animate={
                   reduced
-                    ? { scale: 1, opacity: 1 }
+                    ? { opacity: 1, rotate: 0 }
                     : isHovered
-                      ? { scale: 1.15, rotate: 22.5 }
-                      : {
-                          scale: [1, 1.06, 1],
-                          transition: {
-                            // Idle pulse, indefinite, randomised delay so they don't sync.
-                            duration: 2.2 + (i % 3) * 0.4,
-                            repeat: Infinity,
-                            ease: 'easeInOut',
-                            delay: 2 + i * 0.3,
-                          },
-                        }
+                      ? { rotate: 22.5, opacity: 1 }
+                      : undefined
                 }
-                style={{ originX: 0, originY: 0 }}
+                style={{ originX: '0px', originY: '0px', transformBox: 'fill-box' }}
               />
-            </g>
+            </motion.g>
           );
         })}
       </motion.svg>

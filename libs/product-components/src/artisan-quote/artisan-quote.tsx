@@ -30,7 +30,7 @@ export function ArtisanQuote({ artisan, region, locale, href, className }: Artis
     <article
       className={cn(
         'flex items-start gap-5 p-6 bg-[color:var(--color-clay-100)]',
-        'rounded-[var(--radius-sm)_var(--radius-sm)_var(--radius-xl)_var(--radius-sm)]',
+        '[border-radius:var(--radius-sm)_var(--radius-sm)_var(--radius-xl)_var(--radius-sm)]',
         className,
       )}
     >
