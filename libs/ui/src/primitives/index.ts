@@ -1,4 +1,5 @@
 export * from './button';
+export * from './gradient-border-button';
 export * from './card';
 export * from './tag';
 export * from './badge';

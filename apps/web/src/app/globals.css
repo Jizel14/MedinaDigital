@@ -1,5 +1,10 @@
 @import 'tailwindcss';
 
+/* Tailwind v4 only auto-scans the project root by default. The workspace
+   libraries live outside, so we point the scanner at them explicitly. */
+@source "../../../../libs/ui/src/**/*.{ts,tsx}";
+@source "../../../../libs/product-components/src/**/*.{ts,tsx}";
+
 /* ─────────────────────────────────────────────────────────────────────────
    MÉDINA DIGITAL · Design tokens (Tailwind v4 CSS-first @theme)
    See spec §4.2 — palette terre cuite, typographies Cormorant + Work Sans

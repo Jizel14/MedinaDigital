@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import type { Locale, Region } from '@medina/shared-types';
-import { Container, Button, ZelligePattern } from '@medina/ui';
+import { Container, GradientBorderButton, ZelligePattern } from '@medina/ui';
 import { Link } from '@/i18n/navigation';
 import { ZelligeConstellation } from './zellige-constellation';
 
@@ -64,12 +64,12 @@ export async function HomeHero({ locale, workshops, products, regions }: HomeHer
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-4">
-              <Button asChild variant="primary" size="lg">
+              <GradientBorderButton asChild tone="primary" size="lg" withOrnament>
                 <Link href="/search">{t('common.discover')}</Link>
-              </Button>
-              <Button asChild variant="ornament" size="md">
+              </GradientBorderButton>
+              <GradientBorderButton asChild tone="light" size="md" withOrnament>
                 <Link href="/about">{t('common.learnMore')}</Link>
-              </Button>
+              </GradientBorderButton>
             </div>
           </div>
 
