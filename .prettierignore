@@ -1,0 +1,10 @@
+node_modules
+dist
+build
+.next
+.nx
+coverage
+pnpm-lock.yaml
+public/fonts
+.superpowers
+archive

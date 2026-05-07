@@ -1,0 +1,41 @@
+{
+  "$comment": "Configuration Claude Code pour Médina Digital. Voir https://docs.claude.com/en/docs/claude-code/settings pour la liste complète des options.",
+  "permissions": {
+    "allow": [
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(pnpm:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)",
+      "Bash(node:*)",
+      "Bash(tsc:*)",
+      "Edit",
+      "Read",
+      "Write"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(git push --force:*)",
+      "Bash(npm publish:*)",
+      "Read(.env)",
+      "Read(.env.local)",
+      "Read(.env.production)"
+    ],
+    "ask": ["Bash(git push:*)", "Bash(vercel:*)", "Bash(stripe:*)"]
+  },
+  "$comment_mcp": "Décommenter et configurer quand prêt à connecter les MCP servers. Stripe et Vercel sont les plus utiles pour ce projet (DB MySQL gérée via TypeORM CLI, pas de MCP DB).",
+  "mcpServers_example": {
+    "stripe": {
+      "command": "npx",
+      "args": ["-y", "@stripe/mcp", "--tools=all"],
+      "env": {
+        "STRIPE_SECRET_KEY": "${STRIPE_SECRET_KEY}"
+      }
+    }
+  }
+}

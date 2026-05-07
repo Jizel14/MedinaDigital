@@ -1,0 +1,50 @@
+{
+  "name": "@medina/source",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Médina Digital monorepo — SaaS + marketplace pour artisans tunisiens",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@10.33.2",
+  "scripts": {
+    "dev": "nx run web:dev",
+    "build": "nx run-many -t build",
+    "lint": "nx run-many -t lint",
+    "typecheck": "nx run-many -t typecheck",
+    "test": "nx run-many -t test",
+    "validate:seed": "nx run shared-types:validate-seed",
+    "i18n:check": "nx run i18n:check",
+    "graph": "nx graph",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,css}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md,css}\"",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@nx/eslint": "^21.1.0",
+    "@nx/eslint-plugin": "^21.1.0",
+    "@nx/js": "^21.1.0",
+    "@nx/workspace": "^21.1.0",
+    "@types/node": "^22.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.20.0",
+    "@typescript-eslint/parser": "^8.20.0",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.1",
+    "nx": "^21.1.0",
+    "prettier": "^3.4.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix"
+    ],
+    "*.{ts,tsx,js,jsx,json,md,css}": [
+      "prettier --write"
+    ]
+  }
+}
