@@ -13,6 +13,10 @@ const nextConfig = {
   ],
   images: {
     formats: ['image/webp'],
+    // Allow SVG seed placeholders. Disable when real raster photos replace them.
+    dangerouslyAllowSVG: true,
+    contentDispositionType: 'attachment',
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   experimental: {
     optimizePackageImports: ['@medina/ui', '@medina/product-components'],

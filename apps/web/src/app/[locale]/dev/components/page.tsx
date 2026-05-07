@@ -33,7 +33,15 @@ import {
   TunisiaMap,
   DividerOrnament,
 } from '@medina/ui';
+import {
+  ProductCard,
+  TrustTagBadge,
+  PriceDisplay,
+  RegionTag,
+  ArtisanQuote,
+} from '@medina/product-components';
 import { routing } from '@/i18n/routing';
+import { getFeaturedProducts, getRegionBySlug, getArtisanById } from '@/lib/data';
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
@@ -73,6 +81,12 @@ export default async function DevComponentsPage({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
+
+  // Sample data from the seed for the business components preview.
+  const featured = await getFeaturedProducts(3);
+  const sampleProduct = featured[0];
+  const sampleRegion = sampleProduct ? await getRegionBySlug(sampleProduct.region) : null;
+  const sampleArtisan = sampleProduct ? await getArtisanById(sampleProduct.artisanId) : null;
 
   return (
     <main className="min-h-screen py-16">
@@ -386,6 +400,79 @@ export default async function DevComponentsPage({
               }),
             )}
           </div>
+        </Section>
+
+        <Divider />
+
+        <Section title="Business components (from seed)">
+          {sampleProduct && sampleRegion && (
+            <Row label="PriceDisplay">
+              <PriceDisplay priceEur={sampleProduct.priceEur} locale={locale} size="sm" />
+              <PriceDisplay priceEur={sampleProduct.priceEur} locale={locale} size="md" />
+              <PriceDisplay
+                priceEur={sampleProduct.priceEur}
+                priceTnd={sampleProduct.priceTnd}
+                locale={locale}
+                size="lg"
+                showBoth
+              />
+            </Row>
+          )}
+
+          {sampleRegion && (
+            <Row label="RegionTag">
+              <RegionTag region={sampleRegion} locale={locale} />
+              <RegionTag region={sampleRegion} locale={locale} withoutStar />
+            </Row>
+          )}
+
+          {sampleProduct && (
+            <Row label="TrustTagBadge">
+              <TrustTagBadge trusttagId={sampleProduct.trusttagId} locale={locale} />
+              <TrustTagBadge
+                trusttagId={sampleProduct.trusttagId}
+                locale={locale}
+                variant="detailed"
+              />
+            </Row>
+          )}
+
+          <div>
+            <p className="mb-3 text-xs uppercase tracking-[var(--tracking-label)] text-[color:var(--color-muted)]">
+              ProductCard (3 featured)
+            </p>
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+              {await Promise.all(
+                featured.map(async (p) => {
+                  const region = await getRegionBySlug(p.region);
+                  if (!region) return null;
+                  return (
+                    <ProductCard
+                      key={p.id}
+                      product={p}
+                      region={region}
+                      locale={locale}
+                      href={`/${locale}/products/${p.slug}`}
+                    />
+                  );
+                }),
+              )}
+            </div>
+          </div>
+
+          {sampleArtisan && sampleRegion && (
+            <div>
+              <p className="mb-3 text-xs uppercase tracking-[var(--tracking-label)] text-[color:var(--color-muted)]">
+                ArtisanQuote
+              </p>
+              <ArtisanQuote
+                artisan={sampleArtisan}
+                region={sampleRegion}
+                locale={locale}
+                href={`/${locale}/artisans/${sampleArtisan.slug}`}
+              />
+            </div>
+          )}
         </Section>
       </Container>
     </main>

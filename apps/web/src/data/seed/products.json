@@ -1,0 +1,962 @@
+[
+  {
+    "id": "01HNA1A0N5T6V8X0Z2B4D6F8GH",
+    "slug": "plat-couscous-nabeul-khaled-1",
+    "artisanId": "01HNA0K5RT4Z3M2W4F8X9G7BCD",
+    "category": "ceramics",
+    "region": "nabeul",
+    "title": {
+      "en": "Couscous serving plate, painted",
+      "fr": "Plat à couscous peint à la main",
+      "ar-TN": "صحن كسكسي مزوّق باليد"
+    },
+    "descriptionShort": {
+      "en": "Hand-thrown couscous plate, painted with berber motifs in red and black on white slip, 32 cm.",
+      "fr": "Plat à couscous tourné main, peint aux motifs berbères en rouge et noir sur engobe blanc, 32 cm.",
+      "ar-TN": "صحن كسكسي معمول باليد، مزوّق بنقوش بربرية، 32 سم."
+    },
+    "descriptionLong": {
+      "en": "Thrown by Khaled on a manual wheel, this plate is shaped from red Nabeul clay, then coated with white kaolin slip and painted with iron oxide brushes. The motif at the rim repeats a pattern Khaled inherited from his grandfather. Fired at 980°C in a wood kiln. Diameter 32 cm, depth 6 cm. Each plate is unique — slight variations in shape and pigment density are expected.",
+      "fr": "Tourné par Khaled sur un tour manuel, ce plat est façonné dans l'argile rouge de Nabeul, puis recouvert d'un engobe blanc de kaolin et peint au pinceau d'oxyde de fer. Le motif du bord reprend un dessin transmis par son grand-père. Cuisson à 980°C dans un four à bois. Diamètre 32 cm, profondeur 6 cm. Chaque pièce est unique — légères variations de forme et de densité de pigment.",
+      "ar-TN": "[À VALIDER PME] خالد يدوّر هاذ الصحن على منوال باليد، من الطين الأحمر متاع نابل، يكسيه بطين أبيض و يزوّقه بالفرشاية. النقش متاع الحاشية ورّاثو من جدّو. مطبوخ في فرن خشب على 980°. القطر 32 سم، العمق 6 سم."
+    },
+    "story": {
+      "en": "Khaled paints fifteen of these plates a week, never two identical. He says the brush remembers the curve before he does.",
+      "fr": "Khaled peint quinze plats par semaine, jamais deux identiques. Il dit que le pinceau connaît la courbe avant lui.",
+      "ar-TN": "[À VALIDER PME] خالد يزوّق 15 صحن في الجمعة، عمرو ما عمل زوز كيف كيف."
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Red Nabeul clay",
+          "fr": "Argile rouge de Nabeul",
+          "ar-TN": "طين أحمر نابلي"
+        },
+        "percentage": 90,
+        "origin": "Nabeul, Tunisia"
+      },
+      {
+        "name": { "en": "White kaolin slip", "fr": "Engobe kaolin blanc", "ar-TN": "طين أبيض" },
+        "percentage": 8,
+        "origin": "Tunisia"
+      },
+      {
+        "name": { "en": "Iron oxide pigments", "fr": "Oxydes de fer", "ar-TN": "أكسيد حديد" },
+        "percentage": 2
+      }
+    ],
+    "dimensions": { "lengthCm": 32, "widthCm": 32, "heightCm": 6 },
+    "weightG": 1280,
+    "priceTnd": 220,
+    "priceEur": 68,
+    "photos": [
+      "/images/seed/products/plat-couscous-nabeul-khaled-1-1.webp",
+      "/images/seed/products/plat-couscous-nabeul-khaled-1-2.webp",
+      "/images/seed/products/plat-couscous-nabeul-khaled-1-3.webp"
+    ],
+    "trusttagId": "TT01HNA1A0N5T6V8X0Z2B4D6F8GH",
+    "publishedAt": "2026-04-12",
+    "customRequest": true
+  },
+  {
+    "id": "01HNA1B2P7Q4R6S8T0U2V4W6XY",
+    "slug": "bol-nabeul-khaled-2",
+    "artisanId": "01HNA0K5RT4Z3M2W4F8X9G7BCD",
+    "category": "ceramics",
+    "region": "nabeul",
+    "title": {
+      "en": "Small bowl, tiled rim",
+      "fr": "Petit bol à bord en zellige",
+      "ar-TN": "قصعة صغيرة بحاشية زليج"
+    },
+    "descriptionShort": {
+      "en": "14 cm bowl with a hand-painted tessellated rim — coffee, soup, breakfast.",
+      "fr": "Bol de 14 cm, bord peint en motif zellige — café, soupe, petit-déjeuner.",
+      "ar-TN": "قصعة 14 سم، الحاشية مزوّقة بنقوش زليج — للقهوة و الحساء."
+    },
+    "descriptionLong": {
+      "en": "A small everyday bowl in Nabeul red clay. The interior is left in its natural terracotta tone; the rim carries an eight-pointed star tessellation borrowed from zellige tilework, painted in cobalt and ochre. Microwave-safe, dishwasher-safe up to 50°C.",
+      "fr": "Un petit bol du quotidien en argile rouge de Nabeul. L'intérieur reste dans le ton naturel de la terre cuite ; le bord porte un motif d'étoiles à huit branches emprunté au zellige, peint au cobalt et à l'ocre. Compatible micro-ondes, lave-vaisselle jusqu'à 50°C.",
+      "ar-TN": "[À VALIDER PME] قصعة كل يوم من الطين الأحمر. الداخل بلونو الطبيعي، الحاشية فيها نقش زليج بثمانية رؤوس باللون الأزرق و الأصفر."
+    },
+    "story": {
+      "en": "Khaled's daughter Ines, fifteen, painted her first rim on this batch.",
+      "fr": "Ines, la fille de Khaled, a peint son premier bord sur ce lot.",
+      "ar-TN": "[À VALIDER PME] إيناس، بنت خالد، زوّقت أول حاشية في هذا اللوط."
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Red Nabeul clay",
+          "fr": "Argile rouge de Nabeul",
+          "ar-TN": "طين أحمر نابلي"
+        },
+        "percentage": 92,
+        "origin": "Nabeul, Tunisia"
+      },
+      {
+        "name": {
+          "en": "Cobalt & ochre pigments",
+          "fr": "Cobalt et ocre",
+          "ar-TN": "كوبالت و أصفر"
+        },
+        "percentage": 8
+      }
+    ],
+    "dimensions": { "lengthCm": 14, "widthCm": 14, "heightCm": 7 },
+    "weightG": 320,
+    "priceTnd": 65,
+    "priceEur": 22,
+    "photos": [
+      "/images/seed/products/bol-nabeul-khaled-2-1.webp",
+      "/images/seed/products/bol-nabeul-khaled-2-2.webp",
+      "/images/seed/products/bol-nabeul-khaled-2-3.webp"
+    ],
+    "trusttagId": "TT01HNA1B2P7Q4R6S8T0U2V4W6XY",
+    "publishedAt": "2026-04-15",
+    "customRequest": false
+  },
+  {
+    "id": "01HNA1C4S8U2W6Y0A2C4E6G8IJ",
+    "slug": "vase-nabeul-khaled-3",
+    "artisanId": "01HNA0K5RT4Z3M2W4F8X9G7BCD",
+    "category": "ceramics",
+    "region": "nabeul",
+    "title": {
+      "en": "Tall vase, fish motif",
+      "fr": "Vase haut, motif poisson",
+      "ar-TN": "زهرية طويلة بنقش حوت"
+    },
+    "descriptionShort": {
+      "en": "42 cm vase, fish scale pattern in indigo, narrow neck — single stems or branches.",
+      "fr": "Vase de 42 cm, motif écaille au bleu indigo, col étroit — tiges ou branches seules.",
+      "ar-TN": "زهرية 42 سم، نقش حراشف باللون الأزرق، رقبة ضيّقة."
+    },
+    "descriptionLong": {
+      "en": "Thrown in two parts and joined while leather-hard, this vase carries a continuous fish scale pattern from base to neck. The fish is a recurring motif in Nabeul pottery, said to bring good fortune. Watertight, fully glazed inside.",
+      "fr": "Tourné en deux parties et assemblé à l'état cuir, ce vase porte un motif continu d'écailles de poisson de la base au col. Le poisson est un motif récurrent à Nabeul, censé porter chance. Étanche, glaçure intérieure complète.",
+      "ar-TN": "[À VALIDER PME] الزهرية مدوّرة في زوز قطع و مجمّعة. النقش متاع الحراشف من البلاصة للرقبة. الحوت رمز يجيب الخير في خزف نابل."
+    },
+    "story": {
+      "en": "The fish belonged to Khaled's mother's wedding plate. He's been redrawing it since 2009.",
+      "fr": "Le poisson vient de l'assiette de mariage de la mère de Khaled. Il le redessine depuis 2009.",
+      "ar-TN": "[À VALIDER PME] نقش الحوت جاب من صحن عرس أمّ خالد، قاعد يعيد رسموا من 2009."
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Red Nabeul clay",
+          "fr": "Argile rouge de Nabeul",
+          "ar-TN": "طين أحمر نابلي"
+        },
+        "percentage": 88,
+        "origin": "Nabeul, Tunisia"
+      },
+      { "name": { "en": "Indigo pigment", "fr": "Indigo", "ar-TN": "أزرق نيلي" }, "percentage": 5 },
+      {
+        "name": { "en": "Lead-free glaze", "fr": "Glaçure sans plomb", "ar-TN": "طلاء بلا رصاص" },
+        "percentage": 7,
+        "certifications": ["EN 71-3 lead-free"]
+      }
+    ],
+    "dimensions": { "lengthCm": 18, "widthCm": 18, "heightCm": 42 },
+    "weightG": 2400,
+    "priceTnd": 380,
+    "priceEur": 118,
+    "photos": [
+      "/images/seed/products/vase-nabeul-khaled-3-1.webp",
+      "/images/seed/products/vase-nabeul-khaled-3-2.webp",
+      "/images/seed/products/vase-nabeul-khaled-3-3.webp"
+    ],
+    "trusttagId": "TT01HNA1C4S8U2W6Y0A2C4E6G8IJ",
+    "publishedAt": "2026-04-20",
+    "customRequest": true
+  },
+  {
+    "id": "01HNA1D6V2X4Z6B8D0F2H4J6KL",
+    "slug": "pot-sejnane-fatma-1",
+    "artisanId": "01HNA0KPQ8B5T7X3Y9Z2C4D6EF",
+    "category": "ceramics",
+    "region": "sejnane",
+    "title": {
+      "en": "Coil-built pot, geometric pattern",
+      "fr": "Pot monté au colombin, motif géométrique",
+      "ar-TN": "إناء معمول باليد بنقش هندسي"
+    },
+    "descriptionShort": {
+      "en": "Hand-built pot from red coil clay, painted with iron oxide chevrons. UNESCO heritage technique.",
+      "fr": "Pot monté à la main au colombin d'argile rouge, peint à l'oxyde de fer en chevrons. Patrimoine UNESCO.",
+      "ar-TN": "إناء معمول باليد بالقولان، مزوّق بأكسيد الحديد. تراث اليونسكو."
+    },
+    "descriptionLong": {
+      "en": "Fatma builds this pot without a wheel, coiling rolls of clay one above the other and smoothing them by hand. The exterior is then burnished with a smooth pebble before painting. The chevron motif is associated with mountain water — a wish for abundance. Fired in an open hearth fuelled with cow dung and palm fronds, the traditional method.",
+      "fr": "Fatma monte ce pot sans tour, en empilant des colombins d'argile et en les lissant à la main. L'extérieur est ensuite poli au galet avant peinture. Le motif en chevron est associé à l'eau de la montagne — un vœu d'abondance. Cuisson au feu ouvert, alimenté à la bouse de vache et au palmier, méthode traditionnelle.",
+      "ar-TN": "[À VALIDER PME] فاطمة تبني هاذ الإناء بلا منوال، تركّب القولان فوق بعضها و تملّسها باليد. النقش يرمز للماء و الخير."
+    },
+    "story": {
+      "en": "Each pot carries the prints of Fatma's fingers along the inside seams. She doesn't smooth them out — they're her signature.",
+      "fr": "Chaque pot porte les empreintes des doigts de Fatma le long des joints intérieurs. Elle ne les efface pas — c'est sa signature.",
+      "ar-TN": "[À VALIDER PME] كل إناء فيه آثار صباع فاطمة من الداخل، ما تمسحومش — هاذي إمضاءها."
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Red coil clay, hillside dug",
+          "fr": "Argile rouge, prélevée à la colline",
+          "ar-TN": "طين أحمر من الجبل"
+        },
+        "percentage": 95,
+        "origin": "Sejnane, Tunisia"
+      },
+      {
+        "name": { "en": "Iron oxide", "fr": "Oxyde de fer", "ar-TN": "أكسيد حديد" },
+        "percentage": 5
+      }
+    ],
+    "dimensions": { "lengthCm": 22, "widthCm": 22, "heightCm": 28 },
+    "weightG": 1850,
+    "priceTnd": 290,
+    "priceEur": 89,
+    "photos": [
+      "/images/seed/products/pot-sejnane-fatma-1-1.webp",
+      "/images/seed/products/pot-sejnane-fatma-1-2.webp",
+      "/images/seed/products/pot-sejnane-fatma-1-3.webp"
+    ],
+    "trusttagId": "TT01HNA1D6V2X4Z6B8D0F2H4J6KL",
+    "publishedAt": "2026-03-28",
+    "customRequest": false
+  },
+  {
+    "id": "01HNA1E8X4Z8B2D6F0H4J8L2MN",
+    "slug": "figurine-sejnane-fatma-2",
+    "artisanId": "01HNA0KPQ8B5T7X3Y9Z2C4D6EF",
+    "category": "ceramics",
+    "region": "sejnane",
+    "title": {
+      "en": "Ritual figurine, mother-and-child",
+      "fr": "Figurine rituelle, mère et enfant",
+      "ar-TN": "تمثال صغير، أم و طفل"
+    },
+    "descriptionShort": {
+      "en": "Small abstract figurine in burnished red clay — a Sejnane tradition that dates to neolithic finds.",
+      "fr": "Petite figurine abstraite en argile rouge polie — une tradition de Sejnane attestée au néolithique.",
+      "ar-TN": "تمثال صغير من طين أحمر مصقول — تقليد سجناني يرجع للعصر الحجري."
+    },
+    "descriptionLong": {
+      "en": "Sejnane women have been making these abstract clay figurines for at least three thousand years. Fatma's version is contemporary in scale (only 14 cm tall) but uses the same coil method, the same hillside clay, and the same iron oxide painted lines. The figure represents fertility and protection of the home.",
+      "fr": "Les femmes de Sejnane façonnent ces figurines abstraites depuis au moins trois mille ans. La version de Fatma est contemporaine par la taille (14 cm de haut) mais reprend la même méthode au colombin, la même argile, les mêmes lignes peintes à l'oxyde. Symbole de fertilité et de protection du foyer.",
+      "ar-TN": "[À VALIDER PME] نساء سجنان يعملوا هاذ التماثيل من 3000 سنة. تمثال فاطمة 14 سم، نفس الطريقة و نفس الطين."
+    },
+    "story": {
+      "en": "Fatma keeps one identical figurine on her windowsill. \"For the house\", she says.",
+      "fr": "Fatma garde une figurine identique sur son rebord de fenêtre. \"Pour la maison\", dit-elle.",
+      "ar-TN": "[À VALIDER PME] فاطمة عندها تمثال كيف كيف على الشبّاك. تقول: \"للدار\"."
+    },
+    "materials": [
+      {
+        "name": { "en": "Red coil clay", "fr": "Argile rouge", "ar-TN": "طين أحمر" },
+        "percentage": 96,
+        "origin": "Sejnane, Tunisia"
+      },
+      {
+        "name": { "en": "Iron oxide", "fr": "Oxyde de fer", "ar-TN": "أكسيد حديد" },
+        "percentage": 4
+      }
+    ],
+    "dimensions": { "lengthCm": 8, "widthCm": 6, "heightCm": 14 },
+    "weightG": 280,
+    "priceTnd": 110,
+    "priceEur": 34,
+    "photos": [
+      "/images/seed/products/figurine-sejnane-fatma-2-1.webp",
+      "/images/seed/products/figurine-sejnane-fatma-2-2.webp",
+      "/images/seed/products/figurine-sejnane-fatma-2-3.webp"
+    ],
+    "trusttagId": "TT01HNA1E8X4Z8B2D6F0H4J8L2MN",
+    "publishedAt": "2026-04-02",
+    "customRequest": false
+  },
+  {
+    "id": "01HNA1F0Z6B0D4F8H2J6L0N4PQ",
+    "slug": "plat-creux-sejnane-fatma-3",
+    "artisanId": "01HNA0KPQ8B5T7X3Y9Z2C4D6EF",
+    "category": "ceramics",
+    "region": "sejnane",
+    "title": {
+      "en": "Deep dish, painted lines",
+      "fr": "Plat creux, lignes peintes",
+      "ar-TN": "صحن عميق، خطوط مزوّقة"
+    },
+    "descriptionShort": {
+      "en": "26 cm deep dish, hand-built, bands of painted lines following the rim.",
+      "fr": "Plat creux de 26 cm, monté à la main, bandes de lignes peintes au bord.",
+      "ar-TN": "صحن عميق 26 سم، معمول باليد، خطوط على الحاشية."
+    },
+    "descriptionLong": {
+      "en": "Hand-built deep dish for serving. The exterior keeps the natural texture of the coil-building; the interior is smoothed. Three concentric bands of painted lines circle the rim. Use for stews, salads, or display.",
+      "fr": "Plat creux monté à la main pour service. L'extérieur garde la texture naturelle du colombinage ; l'intérieur est lissé. Trois bandes concentriques de lignes peintes ceinturent le bord. À utiliser pour des plats mijotés, des salades, ou en présentation.",
+      "ar-TN": "[À VALIDER PME] صحن عميق معمول باليد. الخارج فيه أثر القولان، الداخل ملمّس. ثلاث خطوط دايرة على الحاشية."
+    },
+    "story": {
+      "en": "Fatma's grandmother used a dish like this for the family Friday couscous.",
+      "fr": "La grand-mère de Fatma utilisait un plat comme ça pour le couscous du vendredi.",
+      "ar-TN": "[À VALIDER PME] جدّة فاطمة كانت تستعمل صحن كيف كيف لكسكسي الجمعة."
+    },
+    "materials": [
+      {
+        "name": { "en": "Red coil clay", "fr": "Argile rouge", "ar-TN": "طين أحمر" },
+        "percentage": 95,
+        "origin": "Sejnane, Tunisia"
+      },
+      {
+        "name": { "en": "Iron oxide pigments", "fr": "Oxydes de fer", "ar-TN": "أكاسيد حديد" },
+        "percentage": 5
+      }
+    ],
+    "dimensions": { "lengthCm": 26, "widthCm": 26, "heightCm": 9 },
+    "weightG": 1100,
+    "priceTnd": 175,
+    "priceEur": 54,
+    "photos": [
+      "/images/seed/products/plat-creux-sejnane-fatma-3-1.webp",
+      "/images/seed/products/plat-creux-sejnane-fatma-3-2.webp",
+      "/images/seed/products/plat-creux-sejnane-fatma-3-3.webp"
+    ],
+    "trusttagId": "TT01HNA1F0Z6B0D4F8H2J6L0N4PQ",
+    "publishedAt": "2026-04-08",
+    "customRequest": true
+  },
+  {
+    "id": "01HNA1G2B8D2F6H0J4L8N2P6RS",
+    "slug": "kilim-kairouan-amel-1",
+    "artisanId": "01HNA0M2NXJ4K9Q5W7Y3R1S5UV",
+    "category": "textile",
+    "region": "kairouan",
+    "title": {
+      "en": "Kilim, madder and indigo",
+      "fr": "Kilim, garance et indigo",
+      "ar-TN": "كليم، فوة و نيلة"
+    },
+    "descriptionShort": {
+      "en": "Hand-woven kilim, 160×220 cm, plant-dyed wool — madder reds and indigo blues.",
+      "fr": "Kilim tissé main, 160×220 cm, laine teinte aux plantes — rouges de garance, bleus d'indigo.",
+      "ar-TN": "كليم منسوج باليد، 160×220 سم، صوف مصبوغ بالنبات."
+    },
+    "descriptionLong": {
+      "en": "Flat-woven kilim, no pile. Wool is sheared from herds in the Kairouan plains, hand-spun, then dyed in three baths: madder root for reds, indigo for blues, pomegranate skins for warm yellows. The pattern is a free interpretation of a 19th-century bridal kilim from Amel's family. Approximately 32,000 manual passes of the shuttle.",
+      "fr": "Kilim tissé à plat, sans pile. La laine est tondue sur les troupeaux des plaines de Kairouan, filée main, puis teinte en trois bains : racine de garance pour les rouges, indigo pour les bleus, écorces de grenade pour les jaunes chauds. Le motif est une libre interprétation d'un kilim de mariage du XIXe siècle dans la famille d'Amel. Environ 32 000 passages de navette à la main.",
+      "ar-TN": "[À VALIDER PME] كليم منسوج بلا أرضية. الصوف من قطعان القيروان، مغزول باليد و مصبوغ بالنبات. النقش مأخوذ من كليم عرس قديم في عائلة آمل."
+    },
+    "story": {
+      "en": "Amel works with three weavers; this piece took the four of them six weeks.",
+      "fr": "Amel travaille avec trois autres tisseuses ; ce kilim leur a pris six semaines à quatre.",
+      "ar-TN": "[À VALIDER PME] آمل تخدم مع 3 نسّاجات، هاذ الكليم خذا منهم 6 أسابيع."
+    },
+    "materials": [
+      {
+        "name": { "en": "Tunisian wool", "fr": "Laine tunisienne", "ar-TN": "صوف تونسي" },
+        "percentage": 88,
+        "origin": "Kairouan plains, Tunisia"
+      },
+      {
+        "name": { "en": "Cotton warp", "fr": "Chaîne de coton", "ar-TN": "سدا قطن" },
+        "percentage": 8
+      },
+      {
+        "name": {
+          "en": "Plant dyes (madder, indigo, pomegranate)",
+          "fr": "Teintures végétales (garance, indigo, grenade)",
+          "ar-TN": "صباغة نباتية (فوة، نيلة، رمّان)"
+        },
+        "percentage": 4,
+        "certifications": ["GOTS"]
+      }
+    ],
+    "dimensions": { "lengthCm": 220, "widthCm": 160, "heightCm": 1 },
+    "weightG": 4200,
+    "priceTnd": 1850,
+    "priceEur": 580,
+    "photos": [
+      "/images/seed/products/kilim-kairouan-amel-1-1.webp",
+      "/images/seed/products/kilim-kairouan-amel-1-2.webp",
+      "/images/seed/products/kilim-kairouan-amel-1-3.webp"
+    ],
+    "trusttagId": "TT01HNA1G2B8D2F6H0J4L8N2P6RS",
+    "publishedAt": "2026-03-15",
+    "customRequest": true
+  },
+  {
+    "id": "01HNA1H4D2F6H0J4L8N2P6R0TU",
+    "slug": "coussin-kairouan-amel-2",
+    "artisanId": "01HNA0M2NXJ4K9Q5W7Y3R1S5UV",
+    "category": "textile",
+    "region": "kairouan",
+    "title": {
+      "en": "Cushion cover, knotted geometric",
+      "fr": "Coussin noué, motif géométrique",
+      "ar-TN": "غطاء مخدّة معقود، نقش هندسي"
+    },
+    "descriptionShort": {
+      "en": "45×45 cushion cover, hand-knotted wool front, linen back, hidden zip.",
+      "fr": "Coussin 45×45, recto laine nouée main, verso lin, fermeture éclair invisible.",
+      "ar-TN": "مخدّة 45×45، الواجهة صوف معقود باليد و الخلف كتّان."
+    },
+    "descriptionLong": {
+      "en": "Cushion cover with a hand-knotted front in undyed and naturally indigo-dyed wool. The geometric pattern echoes Amel's kilim but at smaller scale. Linen back panel and hidden YKK zip. Insert not included.",
+      "fr": "Coussin à recto noué main, en laine écrue et laine teinte indigo. Motif géométrique reprenant le kilim d'Amel à plus petite échelle. Verso en lin, fermeture YKK invisible. Coussin intérieur non inclus.",
+      "ar-TN": "[À VALIDER PME] الواجهة معقودة باليد، صوف خام و صوف نيلي. النقش هندسي. الخلف كتّان."
+    },
+    "story": {
+      "en": "These cushions are Amel's apprentices' first finished pieces of the season.",
+      "fr": "Ces coussins sont les premières pièces finies des apprenties d'Amel cette saison.",
+      "ar-TN": "[À VALIDER PME] هاذ المخدّات هي أول قطع كمّلوهم متعلّمات آمل هاذ السنة."
+    },
+    "materials": [
+      {
+        "name": { "en": "Tunisian wool", "fr": "Laine tunisienne", "ar-TN": "صوف تونسي" },
+        "percentage": 70
+      },
+      { "name": { "en": "Linen", "fr": "Lin", "ar-TN": "كتّان" }, "percentage": 28 },
+      { "name": { "en": "Indigo dye", "fr": "Indigo", "ar-TN": "نيلة" }, "percentage": 2 }
+    ],
+    "dimensions": { "lengthCm": 45, "widthCm": 45, "heightCm": 2 },
+    "weightG": 480,
+    "priceTnd": 145,
+    "priceEur": 45,
+    "photos": [
+      "/images/seed/products/coussin-kairouan-amel-2-1.webp",
+      "/images/seed/products/coussin-kairouan-amel-2-2.webp",
+      "/images/seed/products/coussin-kairouan-amel-2-3.webp"
+    ],
+    "trusttagId": "TT01HNA1H4D2F6H0J4L8N2P6R0TU",
+    "publishedAt": "2026-04-05",
+    "customRequest": false
+  },
+  {
+    "id": "01HNA1J6F2H6J0L4N8P2R6T0VW",
+    "slug": "tapis-kairouan-amel-3",
+    "artisanId": "01HNA0M2NXJ4K9Q5W7Y3R1S5UV",
+    "category": "textile",
+    "region": "kairouan",
+    "title": {
+      "en": "Knotted runner, indigo and ivory",
+      "fr": "Tapis de couloir noué, indigo et ivoire",
+      "ar-TN": "زربية ممرّ معقودة، نيلة و عاجي"
+    },
+    "descriptionShort": {
+      "en": "70×220 cm runner, knotted wool, geometric medallions on ivory ground.",
+      "fr": "Chemin de couloir 70×220 cm, laine nouée, médaillons géométriques sur fond ivoire.",
+      "ar-TN": "زربية 70×220 سم، صوف معقود، نقوش هندسية على خلفية عاجية."
+    },
+    "descriptionLong": {
+      "en": "Knotted runner with five medallions repeated along its length. Wool from local Tunisian sheep, undyed for the ivory ground, indigo-dyed for the medallions and the border. Density: ~80,000 knots per square metre — a balance between durability and softness underfoot. Vacuum gently, no chemical cleaning.",
+      "fr": "Chemin noué à cinq médaillons répétés en longueur. Laine de moutons tunisiens, écrue pour le fond ivoire, teinte indigo pour les médaillons et la bordure. Densité : ~80 000 nœuds au mètre carré — équilibre entre durabilité et souplesse sous le pied. Aspirer doucement, pas de nettoyage chimique.",
+      "ar-TN": "[À VALIDER PME] زربية ممرّ بخمس نقوش. صوف خام للخلفية، نيلي للنقوش. الكثافة 80 ألف عقدة في المتر المربّع."
+    },
+    "story": {
+      "en": "Amel started this runner the day her daughter was born; she finished it three weeks before her first birthday.",
+      "fr": "Amel a commencé ce tapis le jour où sa fille est née ; elle l'a terminé trois semaines avant son premier anniversaire.",
+      "ar-TN": "[À VALIDER PME] آمل بدات هاذ الزربية يوم ولادة بنتها، كمّلتها قبل عيد ميلادها الأول بثلاث أسابيع."
+    },
+    "materials": [
+      {
+        "name": { "en": "Tunisian wool", "fr": "Laine tunisienne", "ar-TN": "صوف تونسي" },
+        "percentage": 92,
+        "origin": "Kairouan, Tunisia"
+      },
+      {
+        "name": { "en": "Cotton warp", "fr": "Chaîne coton", "ar-TN": "سدا قطن" },
+        "percentage": 6
+      },
+      { "name": { "en": "Indigo dye", "fr": "Indigo", "ar-TN": "نيلة" }, "percentage": 2 }
+    ],
+    "dimensions": { "lengthCm": 220, "widthCm": 70, "heightCm": 1 },
+    "weightG": 3100,
+    "priceTnd": 1280,
+    "priceEur": 395,
+    "photos": [
+      "/images/seed/products/tapis-kairouan-amel-3-1.webp",
+      "/images/seed/products/tapis-kairouan-amel-3-2.webp",
+      "/images/seed/products/tapis-kairouan-amel-3-3.webp"
+    ],
+    "trusttagId": "TT01HNA1J6F2H6J0L4N8P2R6T0VW",
+    "publishedAt": "2026-04-22",
+    "customRequest": true
+  },
+  {
+    "id": "01HNA1K8H6J0L4N8P2R6T0V4XY",
+    "slug": "sac-cuir-sfax-salah-1",
+    "artisanId": "01HNA0MZ6L8P2D4F6H8J0K2MNB",
+    "category": "leather",
+    "region": "sfax",
+    "title": {
+      "en": "Crossbody bag, hand-stitched",
+      "fr": "Sac bandoulière cousu main",
+      "ar-TN": "شكارة كتف مخيوطة باليد"
+    },
+    "descriptionShort": {
+      "en": "Crossbody bag, vegetable-tanned cognac leather, saddle-stitched, no metal hardware.",
+      "fr": "Sac bandoulière, cuir cognac tanné végétal, couture sellier, aucun métal.",
+      "ar-TN": "شكارة كتف، جلد كونياك مدبوغ نباتي، خياطة سلّاج، بلا معدن."
+    },
+    "descriptionLong": {
+      "en": "Salah cuts each bag from a single piece of vegetable-tanned cow hide, no panel joins on the body. Saddle-stitched in waxed linen thread — the same stitch used for horse tack, which holds even if one stitch breaks. Closes with a leather knot through a buttonhole. Size 26×20×8 cm, fits A5 notebook, phone, wallet, keys.",
+      "fr": "Salah coupe chaque sac dans une seule pièce de cuir tanné végétal, sans joint sur le corps. Couture sellier au fil de lin ciré — la même que pour les harnais, qui tient même si un point lâche. Fermeture par un nœud de cuir dans une boutonnière. Taille 26×20×8 cm, contient A5, téléphone, portefeuille, clés.",
+      "ar-TN": "[À VALIDER PME] صالح يقطع الشكارة من قطعة جلد وحدة. الخياطة سلّاج، تثبت حتى لو طاحت غرزة. تسكر بعقدة جلد."
+    },
+    "story": {
+      "en": "Salah numbers each bag inside the flap. Number 412 was made the morning his grandson was born.",
+      "fr": "Salah numérote chaque sac à l'intérieur du rabat. Le 412 a été fait le matin de la naissance de son petit-fils.",
+      "ar-TN": "[À VALIDER PME] صالح يحطّ نمرة على كل شكارة. النمرة 412 عملها صباح يوم ولادة حفيدو."
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Vegetable-tanned cow leather",
+          "fr": "Cuir de vache tanné végétal",
+          "ar-TN": "جلد بقر مدبوغ نباتي"
+        },
+        "percentage": 96,
+        "origin": "Sfax, Tunisia"
+      },
+      {
+        "name": { "en": "Waxed linen thread", "fr": "Fil de lin ciré", "ar-TN": "خيط كتّان مشمّع" },
+        "percentage": 4
+      }
+    ],
+    "dimensions": { "lengthCm": 26, "widthCm": 8, "heightCm": 20 },
+    "weightG": 540,
+    "priceTnd": 380,
+    "priceEur": 118,
+    "photos": [
+      "/images/seed/products/sac-cuir-sfax-salah-1-1.webp",
+      "/images/seed/products/sac-cuir-sfax-salah-1-2.webp",
+      "/images/seed/products/sac-cuir-sfax-salah-1-3.webp"
+    ],
+    "trusttagId": "TT01HNA1K8H6J0L4N8P2R6T0V4XY",
+    "publishedAt": "2026-04-10",
+    "customRequest": true
+  },
+  {
+    "id": "01HNA1L0J0L4N8P2R6T0V4X8ZA",
+    "slug": "etui-sfax-salah-2",
+    "artisanId": "01HNA0MZ6L8P2D4F6H8J0K2MNB",
+    "category": "leather",
+    "region": "sfax",
+    "title": {
+      "en": "Card holder, slip pocket",
+      "fr": "Porte-cartes, poche glissée",
+      "ar-TN": "محفظة كروت بجيب"
+    },
+    "descriptionShort": {
+      "en": "Slim card holder, vegetable-tanned cognac leather, saddle-stitched.",
+      "fr": "Porte-cartes fin, cuir cognac tanné végétal, couture sellier.",
+      "ar-TN": "محفظة كروت رقيقة، جلد كونياك، خياطة سلّاج."
+    },
+    "descriptionLong": {
+      "en": "Holds 6 cards (3 per side) plus folded notes in the central slip. No card-blocking lining — the leather itself is dense enough. Develops a deep patina with use; expect richer tone within six months.",
+      "fr": "Tient 6 cartes (3 par face) plus billets pliés dans la poche centrale. Pas de doublure anti-RFID — le cuir lui-même est suffisamment dense. Développe une patine profonde à l'usage ; teinte plus riche après six mois.",
+      "ar-TN": "[À VALIDER PME] تستحمل 6 كروت + الورق في الجيب. الجلد سميك. تاخذ لون أعمق مع الاستعمال."
+    },
+    "story": {
+      "en": "Salah's first product after his apprenticeship — he still makes them in batches of fifty, by hand.",
+      "fr": "Le premier produit de Salah après son apprentissage — il les fait toujours par lots de cinquante, à la main.",
+      "ar-TN": "[À VALIDER PME] أول حاجة عملها صالح بعد ما تعلّم — لا زال يعملهم 50 في كل لوط، باليد."
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Vegetable-tanned cow leather",
+          "fr": "Cuir de vache tanné végétal",
+          "ar-TN": "جلد بقر مدبوغ نباتي"
+        },
+        "percentage": 95,
+        "origin": "Sfax, Tunisia"
+      },
+      {
+        "name": { "en": "Waxed linen thread", "fr": "Fil de lin ciré", "ar-TN": "خيط كتّان مشمّع" },
+        "percentage": 5
+      }
+    ],
+    "dimensions": { "lengthCm": 10.5, "widthCm": 7.5, "heightCm": 0.8 },
+    "weightG": 60,
+    "priceTnd": 95,
+    "priceEur": 29,
+    "photos": [
+      "/images/seed/products/etui-sfax-salah-2-1.webp",
+      "/images/seed/products/etui-sfax-salah-2-2.webp",
+      "/images/seed/products/etui-sfax-salah-2-3.webp"
+    ],
+    "trusttagId": "TT01HNA1L0J0L4N8P2R6T0V4X8ZA",
+    "publishedAt": "2026-03-30",
+    "customRequest": false
+  },
+  {
+    "id": "01HNA1M2L4N8P2R6T0V4X8Z2BCD",
+    "slug": "ceinture-sfax-salah-3",
+    "artisanId": "01HNA0MZ6L8P2D4F6H8J0K2MNB",
+    "category": "leather",
+    "region": "sfax",
+    "title": {
+      "en": "Belt, brass-free buckle",
+      "fr": "Ceinture, boucle sans laiton",
+      "ar-TN": "حزام بمشبك بلا نحاس"
+    },
+    "descriptionShort": {
+      "en": "Hand-cut belt, brass-free buckle (recycled steel), customisable to waist size.",
+      "fr": "Ceinture coupée main, boucle en acier recyclé sans laiton, ajustée à votre taille.",
+      "ar-TN": "حزام مقطوع باليد، مشبك ستيل بلا نحاس، على قياسك."
+    },
+    "descriptionLong": {
+      "en": "Belt strap cut from a single hide, hand-burnished edges. The buckle is forged from recycled steel by a metalsmith two doors down from Salah's workshop. Order with your waist size; Salah punches the holes by hand to fit. Width 3.5 cm.",
+      "fr": "Bande coupée dans une seule peau, tranches polies à la main. La boucle est forgée en acier recyclé par un forgeron à deux portes de l'atelier de Salah. Commandez avec votre tour de taille ; Salah perce les trous à la main pour ajustement. Largeur 3,5 cm.",
+      "ar-TN": "[À VALIDER PME] حزام من جلد واحد، الحواف ملمّسة باليد. المشبك من ستيل مرسكل، يخدمو حدّاد قريب من ورشة صالح."
+    },
+    "story": {
+      "en": "Salah punches each hole live with the customer when they pick up. \"Belts are not standard sizes\", he says.",
+      "fr": "Salah perce chaque trou en présence du client à la livraison. \"Les ceintures ne sont pas des standards\", dit-il.",
+      "ar-TN": "[À VALIDER PME] صالح يفرز الثقوب قدّام الحريف. يقول: \"الحزام موش قياس عام\"."
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Vegetable-tanned cow leather",
+          "fr": "Cuir de vache tanné végétal",
+          "ar-TN": "جلد بقر مدبوغ نباتي"
+        },
+        "percentage": 80
+      },
+      {
+        "name": {
+          "en": "Recycled steel buckle",
+          "fr": "Boucle acier recyclé",
+          "ar-TN": "مشبك ستيل مرسكل"
+        },
+        "percentage": 18
+      },
+      {
+        "name": { "en": "Waxed linen thread", "fr": "Fil de lin ciré", "ar-TN": "خيط كتّان مشمّع" },
+        "percentage": 2
+      }
+    ],
+    "dimensions": { "lengthCm": 110, "widthCm": 3.5, "heightCm": 0.5 },
+    "weightG": 230,
+    "priceTnd": 165,
+    "priceEur": 52,
+    "photos": [
+      "/images/seed/products/ceinture-sfax-salah-3-1.webp",
+      "/images/seed/products/ceinture-sfax-salah-3-2.webp",
+      "/images/seed/products/ceinture-sfax-salah-3-3.webp"
+    ],
+    "trusttagId": "TT01HNA1M2L4N8P2R6T0V4X8Z2BCD",
+    "publishedAt": "2026-04-18",
+    "customRequest": true
+  },
+  {
+    "id": "01HNA1N4N8P2R6T0V4X8Z2B6DEF",
+    "slug": "fibule-sidi-bou-leila-1",
+    "artisanId": "01HNA0NF8K3M5R7T9V1X3Z5BCD",
+    "category": "jewelry",
+    "region": "sidi-bou-said",
+    "title": {
+      "en": "Modern fibula brooch",
+      "fr": "Broche fibule contemporaine",
+      "ar-TN": "بروش فيبولا معاصر"
+    },
+    "descriptionShort": {
+      "en": "Sterling silver fibula reinterpreted in a clean geometric profile. 7 cm.",
+      "fr": "Fibule en argent 925 réinterprétée en profil géométrique épuré. 7 cm.",
+      "ar-TN": "فيبولا فضّة 925 بشكل هندسي معاصر، 7 سم."
+    },
+    "descriptionLong": {
+      "en": "Reworked from the traditional Berber fibula (a clasp historically used to hold draped garments). Leïla's version uses a single curved bar and a thin pin in 925 sterling silver, hammered then polished. Wears on a coat lapel, scarf, or as a kilt pin. Comes in a cotton pouch hand-stitched in Sidi Bou.",
+      "fr": "Revisitée à partir de la fibule berbère traditionnelle (agrafe utilisée historiquement pour fermer les vêtements drapés). La version de Leïla utilise une barre courbe unique et une fine pointe en argent 925, martelée puis polie. Se porte sur un revers, un foulard, ou comme épingle de kilt. Livrée dans une pochette coton cousue main à Sidi Bou.",
+      "ar-TN": "[À VALIDER PME] فيبولا تقليدية بربرية، صنعتها ليلى بشكل معاصر. فضّة 925، مطروقة و ملمّسة. تتلبس على المعطف أو الفولار."
+    },
+    "story": {
+      "en": "Leïla's first piece in this collection was a wedding gift to her sister; this is the production version.",
+      "fr": "La première pièce de cette collection était un cadeau de mariage de Leïla à sa sœur ; voici la version production.",
+      "ar-TN": "[À VALIDER PME] أول قطعة في هاذ المجموعة كانت هدية عرس لخت ليلى، هاذي نسخة الإنتاج."
+    },
+    "materials": [
+      {
+        "name": { "en": "925 sterling silver", "fr": "Argent 925", "ar-TN": "فضّة 925" },
+        "percentage": 100,
+        "certifications": ["Hallmark Tunisia 925"]
+      }
+    ],
+    "dimensions": { "lengthCm": 7, "widthCm": 2.5, "heightCm": 0.4 },
+    "weightG": 18,
+    "priceTnd": 290,
+    "priceEur": 92,
+    "photos": [
+      "/images/seed/products/fibule-sidi-bou-leila-1-1.webp",
+      "/images/seed/products/fibule-sidi-bou-leila-1-2.webp",
+      "/images/seed/products/fibule-sidi-bou-leila-1-3.webp"
+    ],
+    "trusttagId": "TT01HNA1N4N8P2R6T0V4X8Z2B6DEF",
+    "publishedAt": "2026-04-04",
+    "customRequest": false
+  },
+  {
+    "id": "01HNA1P6P2R6T0V4X8Z2B6D0FGH",
+    "slug": "pendentif-sidi-bou-leila-2",
+    "artisanId": "01HNA0NF8K3M5R7T9V1X3Z5BCD",
+    "category": "jewelry",
+    "region": "sidi-bou-said",
+    "title": {
+      "en": "Hand-of-Fatima pendant",
+      "fr": "Pendentif main de Fatma",
+      "ar-TN": "تعليقة كف الخدمة"
+    },
+    "descriptionShort": {
+      "en": "Khamsa pendant, hammered silver, fine snake chain (45 cm).",
+      "fr": "Pendentif khamsa, argent martelé, chaîne fine (45 cm).",
+      "ar-TN": "تعليقة كف، فضّة مطروقة، سلسلة 45 سم."
+    },
+    "descriptionLong": {
+      "en": "Khamsa (hand-of-Fatima) cast in 925 silver from a wax model Leïla carves herself. Hammered surface keeps the texture of forging. Chain is a fine 1.2 mm snake chain in matching silver, 45 cm. Comes with a small card explaining the symbolism without folklorising it.",
+      "fr": "Khamsa (main de Fatma) coulée en argent 925 à partir d'un modèle en cire sculpté par Leïla. Surface martelée gardant la texture de la forge. Chaîne fine serpent 1,2 mm en argent assorti, 45 cm. Livré avec une carte expliquant le symbolisme sans folklorisme.",
+      "ar-TN": "[À VALIDER PME] خمسة من فضّة 925، ليلى تنحتها في الشمع. السلسلة 45 سم. تجي مع كرت يفسّر الرمز."
+    },
+    "story": {
+      "en": "Leïla makes 8 to 10 of these a month — never the same surface twice.",
+      "fr": "Leïla en fait 8 à 10 par mois — jamais la même surface deux fois.",
+      "ar-TN": "[À VALIDER PME] ليلى تعمل 8 ل 10 في الشهر، عمرها ما عملت زوز كيف كيف."
+    },
+    "materials": [
+      {
+        "name": { "en": "925 sterling silver", "fr": "Argent 925", "ar-TN": "فضّة 925" },
+        "percentage": 100,
+        "certifications": ["Hallmark Tunisia 925"]
+      }
+    ],
+    "dimensions": { "lengthCm": 3.2, "widthCm": 2.4, "heightCm": 0.3 },
+    "weightG": 12,
+    "priceTnd": 230,
+    "priceEur": 72,
+    "photos": [
+      "/images/seed/products/pendentif-sidi-bou-leila-2-1.webp",
+      "/images/seed/products/pendentif-sidi-bou-leila-2-2.webp",
+      "/images/seed/products/pendentif-sidi-bou-leila-2-3.webp"
+    ],
+    "trusttagId": "TT01HNA1P6P2R6T0V4X8Z2B6D0FGH",
+    "publishedAt": "2026-04-11",
+    "customRequest": true
+  },
+  {
+    "id": "01HNA1Q8R2T0V4X8Z2B6D0F4HIJ",
+    "slug": "boucles-sidi-bou-leila-3",
+    "artisanId": "01HNA0NF8K3M5R7T9V1X3Z5BCD",
+    "category": "jewelry",
+    "region": "sidi-bou-said",
+    "title": {
+      "en": "Geometric drop earrings",
+      "fr": "Boucles d'oreilles géométriques",
+      "ar-TN": "حلقان هندسية"
+    },
+    "descriptionShort": {
+      "en": "Drop earrings in 925 silver, eight-pointed star motif derived from zellige.",
+      "fr": "Boucles pendantes en argent 925, motif à étoile huit branches inspiré du zellige.",
+      "ar-TN": "حلقان فضّة 925 بنقش نجمة زليج."
+    },
+    "descriptionLong": {
+      "en": "Drop earrings, 4 cm long. The eight-pointed star at the bottom is cut from a thin sheet of 925 silver and hangs from a fine bar. Hooks in surgical-grade titanium for sensitive ears.",
+      "fr": "Boucles pendantes de 4 cm. L'étoile à huit branches du bas est découpée dans une fine feuille d'argent 925 et suspendue à une barre fine. Crochets en titane chirurgical pour oreilles sensibles.",
+      "ar-TN": "[À VALIDER PME] حلقان 4 سم. النجمة بثمانية رؤوس مقطوعة من فضّة 925. الحلق في تيتانيوم طبّي."
+    },
+    "story": {
+      "en": "Inspired by a single zellige tile in the courtyard of Sidi Bou's old café.",
+      "fr": "Inspirées d'un seul carreau de zellige dans la cour du vieux café de Sidi Bou.",
+      "ar-TN": "[À VALIDER PME] الإلهام من زلّيجة وحدة في حوش القهوة القديمة في سيدي بوسعيد."
+    },
+    "materials": [
+      {
+        "name": { "en": "925 sterling silver", "fr": "Argent 925", "ar-TN": "فضّة 925" },
+        "percentage": 95
+      },
+      {
+        "name": {
+          "en": "Surgical titanium hooks",
+          "fr": "Crochets titane chirurgical",
+          "ar-TN": "حلق تيتانيوم طبّي"
+        },
+        "percentage": 5,
+        "certifications": ["EN 1811 nickel-free"]
+      }
+    ],
+    "dimensions": { "lengthCm": 4, "widthCm": 1.4, "heightCm": 0.2 },
+    "weightG": 6,
+    "priceTnd": 175,
+    "priceEur": 54,
+    "photos": [
+      "/images/seed/products/boucles-sidi-bou-leila-3-1.webp",
+      "/images/seed/products/boucles-sidi-bou-leila-3-2.webp",
+      "/images/seed/products/boucles-sidi-bou-leila-3-3.webp"
+    ],
+    "trusttagId": "TT01HNA1Q8R2T0V4X8Z2B6D0F4HIJ",
+    "publishedAt": "2026-04-25",
+    "customRequest": false
+  },
+  {
+    "id": "01HNA1R0T6V0X4Z8B2D6F0H4JKL",
+    "slug": "planche-tozeur-moncef-1",
+    "artisanId": "01HNA0P5J7H9G2F4D6S8A0Q2WER",
+    "category": "wood",
+    "region": "tozeur",
+    "title": {
+      "en": "Olive wood serving board",
+      "fr": "Planche de service en bois d'olivier",
+      "ar-TN": "طبلة تقديم خشب زيتون"
+    },
+    "descriptionShort": {
+      "en": "40×20 cm board carved from a single piece of salvaged olive wood. Each one unique.",
+      "fr": "Planche 40×20 cm taillée dans une seule pièce de bois d'olivier de récupération. Chaque pièce unique.",
+      "ar-TN": "طبلة 40×20 سم من قطعة وحدة من خشب زيتون قديم. كل قطعة فريدة."
+    },
+    "descriptionLong": {
+      "en": "Cut from olive trees taken down at the end of their productive life — never green wood. Each board carries the natural variations of the tree it came from: knots, veins, sometimes a darker patch. Finished with food-safe linseed oil. Hand-wash only, oil quarterly to keep the wood alive.",
+      "fr": "Taillée dans des oliviers abattus en fin de vie productive — jamais de bois vert. Chaque planche porte les variations naturelles de l'arbre dont elle vient : nœuds, veines, parfois une tache plus foncée. Finition à l'huile de lin alimentaire. Lavage main uniquement, huiler trimestriellement pour garder le bois vivant.",
+      "ar-TN": "[À VALIDER PME] طبلة من زيتون قديم، فيها العقد و النقوش الطبيعية. الزيت كتّان غذائي. الغسيل باليد، تزيّت كل 3 أشهر."
+    },
+    "story": {
+      "en": "Moncef's son Karim does the rough cut now; Moncef does the finish.",
+      "fr": "Karim, le fils de Moncef, fait la coupe brute maintenant ; Moncef fait la finition.",
+      "ar-TN": "[À VALIDER PME] كريم، وليد منصف، يعمل التقطيع الأول. منصف يكمّل."
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Olive wood, salvaged",
+          "fr": "Bois d'olivier, récupération",
+          "ar-TN": "خشب زيتون قديم"
+        },
+        "percentage": 99,
+        "origin": "Tozeur oases, Tunisia"
+      },
+      {
+        "name": {
+          "en": "Food-safe linseed oil",
+          "fr": "Huile de lin alimentaire",
+          "ar-TN": "زيت كتّان غذائي"
+        },
+        "percentage": 1,
+        "certifications": ["Food-contact safe EU 1935/2004"]
+      }
+    ],
+    "dimensions": { "lengthCm": 40, "widthCm": 20, "heightCm": 2.5 },
+    "weightG": 850,
+    "priceTnd": 195,
+    "priceEur": 60,
+    "photos": [
+      "/images/seed/products/planche-tozeur-moncef-1-1.webp",
+      "/images/seed/products/planche-tozeur-moncef-1-2.webp",
+      "/images/seed/products/planche-tozeur-moncef-1-3.webp"
+    ],
+    "trusttagId": "TT01HNA1R0T6V0X4Z8B2D6F0H4JKL",
+    "publishedAt": "2026-04-01",
+    "customRequest": true
+  },
+  {
+    "id": "01HNA1S2V0X4Z8B2D6F0H4J8LMN",
+    "slug": "cuillere-tozeur-moncef-2",
+    "artisanId": "01HNA0P5J7H9G2F4D6S8A0Q2WER",
+    "category": "wood",
+    "region": "tozeur",
+    "title": {
+      "en": "Cooking spoon, olive wood",
+      "fr": "Cuillère de cuisine, bois d'olivier",
+      "ar-TN": "مغرفة طبخ، خشب زيتون"
+    },
+    "descriptionShort": {
+      "en": "Long-handled cooking spoon, 32 cm, hand-carved, food-safe finish.",
+      "fr": "Cuillère de cuisine à long manche, 32 cm, sculptée main, finition alimentaire.",
+      "ar-TN": "مغرفة طبخ بمسكة طويلة، 32 سم، منحوتة باليد."
+    },
+    "descriptionLong": {
+      "en": "Cooking spoon for everyday stove use. Long enough to stir at the bottom of a tagine without scorching the hand. Carved with a slight bowl that holds about 25 ml. Finished with linseed oil; do not put in dishwasher.",
+      "fr": "Cuillère pour usage quotidien sur la cuisinière. Manche assez long pour remuer le fond d'un tajine sans se brûler. Cuvette légère, contient ~25 ml. Finition à l'huile de lin ; pas au lave-vaisselle.",
+      "ar-TN": "[À VALIDER PME] مغرفة طويلة، تخلطلك في القاع متاع الطاجين بلا ما تحرق يدك. الزيت كتّان."
+    },
+    "story": {
+      "en": "Moncef's wife uses an identical spoon every day. \"That's the test\", he says.",
+      "fr": "La femme de Moncef utilise une cuillère identique tous les jours. \"C'est le test\", dit-il.",
+      "ar-TN": "[À VALIDER PME] مرة منصف تستعمل واحدة كيف كيف كل يوم. يقول: \"هاذي الإختبار\"."
+    },
+    "materials": [
+      {
+        "name": { "en": "Olive wood, salvaged", "fr": "Bois d'olivier", "ar-TN": "خشب زيتون" },
+        "percentage": 99
+      },
+      {
+        "name": { "en": "Linseed oil", "fr": "Huile de lin", "ar-TN": "زيت كتّان" },
+        "percentage": 1
+      }
+    ],
+    "dimensions": { "lengthCm": 32, "widthCm": 7, "heightCm": 2 },
+    "weightG": 95,
+    "priceTnd": 48,
+    "priceEur": 16,
+    "photos": [
+      "/images/seed/products/cuillere-tozeur-moncef-2-1.webp",
+      "/images/seed/products/cuillere-tozeur-moncef-2-2.webp",
+      "/images/seed/products/cuillere-tozeur-moncef-2-3.webp"
+    ],
+    "trusttagId": "TT01HNA1S2V0X4Z8B2D6F0H4J8LMN",
+    "publishedAt": "2026-04-14",
+    "customRequest": false
+  },
+  {
+    "id": "01HNA1T4X4Z8B2D6F0H4J8L2NOP",
+    "slug": "tabouret-tozeur-moncef-3",
+    "artisanId": "01HNA0P5J7H9G2F4D6S8A0Q2WER",
+    "category": "wood",
+    "region": "tozeur",
+    "title": {
+      "en": "Low stool, three legs",
+      "fr": "Tabouret bas, trois pieds",
+      "ar-TN": "كرسي قصير، ثلاث قوائم"
+    },
+    "descriptionShort": {
+      "en": "Three-legged low stool, olive wood, mortise-and-tenon, no screws.",
+      "fr": "Tabouret bas trois pieds, bois d'olivier, mortaise-tenon, sans vis.",
+      "ar-TN": "كرسي قصير بثلاث قوائم، خشب زيتون، تجميع بلا براغي."
+    },
+    "descriptionLong": {
+      "en": "Three-legged stool — three legs always sit flat on uneven floors, where four would wobble. Mortise-and-tenon joints, glued with hide glue (reversible if a leg ever needs replacing). Seat 28 cm diameter, 28 cm tall. Holds an adult easily.",
+      "fr": "Tabouret trois pieds — trois pieds reposent toujours à plat sur un sol irrégulier, là où quatre vacillent. Assemblages tenon-mortaise, collés à la colle de peau (réversible si un pied doit un jour être remplacé). Assise 28 cm de diamètre, 28 cm de haut. Supporte un adulte sans difficulté.",
+      "ar-TN": "[À VALIDER PME] كرسي بثلاث قوائم، لا تتزحلقش على الأرض موش مستوية. التجميع تنوب-فجوة، الصمغ من الجلد (يقدر يتفكّ)."
+    },
+    "story": {
+      "en": "Moncef's first chair was a stool he made for his daughter at three years old. He's been making them since.",
+      "fr": "Le premier siège de Moncef était un tabouret pour sa fille de trois ans. Il en fait depuis.",
+      "ar-TN": "[À VALIDER PME] أول كرسي عملو منصف كان لبنته كان عمرها 3 سنين. لازم يعمل من ذيك السنة."
+    },
+    "materials": [
+      {
+        "name": { "en": "Olive wood, salvaged", "fr": "Bois d'olivier", "ar-TN": "خشب زيتون" },
+        "percentage": 97
+      },
+      {
+        "name": { "en": "Hide glue", "fr": "Colle de peau", "ar-TN": "صمغ الجلد" },
+        "percentage": 2
+      },
+      {
+        "name": { "en": "Linseed oil", "fr": "Huile de lin", "ar-TN": "زيت كتّان" },
+        "percentage": 1
+      }
+    ],
+    "dimensions": { "lengthCm": 28, "widthCm": 28, "heightCm": 28 },
+    "weightG": 2400,
+    "priceTnd": 410,
+    "priceEur": 128,
+    "photos": [
+      "/images/seed/products/tabouret-tozeur-moncef-3-1.webp",
+      "/images/seed/products/tabouret-tozeur-moncef-3-2.webp",
+      "/images/seed/products/tabouret-tozeur-moncef-3-3.webp"
+    ],
+    "trusttagId": "TT01HNA1T4X4Z8B2D6F0H4J8L2NOP",
+    "publishedAt": "2026-04-28",
+    "customRequest": true
+  }
+]

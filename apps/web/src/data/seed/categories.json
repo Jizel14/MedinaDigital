@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "ceramics",
+    "name": {
+      "en": "Ceramics",
+      "fr": "Céramique",
+      "ar-TN": "الخزف"
+    },
+    "description": {
+      "en": "Hand-thrown plates, bowls and vases from the Cap Bon and the north — fired, painted, signed.",
+      "fr": "Plats, bols et vases tournés à la main au Cap Bon et au nord — cuits, peints, signés.",
+      "ar-TN": "[À VALIDER PME] صحون و قصاع و زهريات معمولين بالإيد من راس الطيب و الشمال — مطبوخين و مزوّقين"
+    },
+    "iconKey": "pottery",
+    "heroImage": "/images/seed/categories/ceramics.webp"
+  },
+  {
+    "slug": "textile",
+    "name": {
+      "en": "Textile",
+      "fr": "Textile",
+      "ar-TN": "النسيج"
+    },
+    "description": {
+      "en": "Woven kilims and embroidered linens — Kairouan to the southern oases.",
+      "fr": "Kilims tissés et linges brodés — de Kairouan aux oasis du sud.",
+      "ar-TN": "[À VALIDER PME] كليم منسوج و كتّان مطرّز — من القيروان للواحات الجنوبية"
+    },
+    "iconKey": "loom",
+    "heroImage": "/images/seed/categories/textile.webp"
+  },
+  {
+    "slug": "leather",
+    "name": {
+      "en": "Leather",
+      "fr": "Cuir",
+      "ar-TN": "الجلد"
+    },
+    "description": {
+      "en": "Hand-stitched bags and pouches in vegetable-tanned leather from Sfax workshops.",
+      "fr": "Sacs et étuis cousus main, cuir tanné végétal des ateliers de Sfax.",
+      "ar-TN": "[À VALIDER PME] شكاير و محافظ مخيوطة بالإيد، جلد مدبوغ نباتي من ورشات صفاقس"
+    },
+    "iconKey": "awl",
+    "heroImage": "/images/seed/categories/leather.webp"
+  },
+  {
+    "slug": "jewelry",
+    "name": {
+      "en": "Jewelry",
+      "fr": "Bijoux",
+      "ar-TN": "المجوهرات"
+    },
+    "description": {
+      "en": "Silver and filigree pieces — Berber motifs reworked in contemporary forms.",
+      "fr": "Argent et filigrane — motifs berbères revisités en formes contemporaines.",
+      "ar-TN": "[À VALIDER PME] فضة و تخريم — نقوش بربرية بشكل معاصر"
+    },
+    "iconKey": "gem",
+    "heroImage": "/images/seed/categories/jewelry.webp"
+  },
+  {
+    "slug": "wood",
+    "name": {
+      "en": "Wood",
+      "fr": "Bois",
+      "ar-TN": "الخشب"
+    },
+    "description": {
+      "en": "Olive wood and carved cedar — kitchen utensils, boards, small furniture.",
+      "fr": "Bois d'olivier et cèdre sculpté — ustensiles, planches, petit mobilier.",
+      "ar-TN": "[À VALIDER PME] خشب الزيتون و الأرز المنحوت — أدوات مطبخ و طبلات و أثاث صغير"
+    },
+    "iconKey": "chisel",
+    "heroImage": "/images/seed/categories/wood.webp"
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "01HNA0K5RT4Z3M2W4F8X9G7BCD",
+    "slug": "khaled-ben-ahmed-nabeul",
+    "name": "Khaled Ben Ahmed",
+    "yearsOfPractice": 22,
+    "region": "nabeul",
+    "primaryCategory": "ceramics",
+    "story": {
+      "en": "Khaled was twelve when his grandfather first put a pot of clay between his hands. Three decades later he runs a small workshop on the edge of Nabeul, firing his pieces in a wood kiln his father built. He paints each plate himself, with brushes he keeps from one season to the next.",
+      "fr": "Khaled avait douze ans quand son grand-père a posé une motte d'argile entre ses mains. Trente ans plus tard il tient un petit atelier en bordure de Nabeul, et cuit ses pièces dans le four à bois construit par son père. Il peint chaque plat lui-même, avec des pinceaux qu'il garde d'une saison à l'autre.",
+      "ar-TN": "[À VALIDER PME] خالد كان عمره 12 سنة وقت جدّو حطّ في يديه قطعة طين. اليوم عنده ورشة في نابل و يطبخ القطع في فرن خشب بناه باباه. يزوّق كل صحن باليد."
+    },
+    "shortBio": {
+      "en": "Hand-thrown ceramics, fired in a wood kiln in Nabeul.",
+      "fr": "Céramiques tournées main, cuites au four à bois à Nabeul.",
+      "ar-TN": "خزف معمول بالإيد، مطبوخ في فرن خشب في نابل."
+    },
+    "portrait": "/images/seed/artisans/khaled-ben-ahmed-portrait.webp",
+    "workshopPhoto": "/images/seed/artisans/khaled-ben-ahmed-workshop.webp",
+    "isPublic": true
+  },
+  {
+    "id": "01HNA0KPQ8B5T7X3Y9Z2C4D6EF",
+    "slug": "fatma-bouazizi-sejnane",
+    "name": "Fatma Bouazizi",
+    "yearsOfPractice": 31,
+    "region": "sejnane",
+    "primaryCategory": "ceramics",
+    "story": {
+      "en": "Fatma works without a wheel, building each pot by hand from coils of red clay dug from the hillside behind her house. She paints with iron oxide and natural pigments, learned from her mother and grandmother. Her work was inscribed on the UNESCO list of intangible heritage in 2018.",
+      "fr": "Fatma travaille sans tour, montant chaque pièce à la main par colombins, avec une argile rouge prise sur la colline derrière sa maison. Elle peint avec de l'oxyde de fer et des pigments naturels, transmis par sa mère et sa grand-mère. Son travail est inscrit au patrimoine immatériel de l'UNESCO depuis 2018.",
+      "ar-TN": "[À VALIDER PME] فاطمة تخدم بلا منوال، تبني كل قطعة باليد من طين أحمر تجيبه من الجبل وراء دارها. تزوّق بأكسيد الحديد و ألوان طبيعية. خدمتها مسجّلة في تراث اليونسكو من 2018."
+    },
+    "shortBio": {
+      "en": "Coil-built pottery, UNESCO heritage technique, Sejnane.",
+      "fr": "Poterie au colombin, technique inscrite à l'UNESCO, Sejnane.",
+      "ar-TN": "خزف باليد، تقنية اليونسكو، سجنان."
+    },
+    "portrait": "/images/seed/artisans/fatma-bouazizi-portrait.webp",
+    "isPublic": true
+  },
+  {
+    "id": "01HNA0M2NXJ4K9Q5W7Y3R1S5UV",
+    "slug": "amel-trabelsi-kairouan",
+    "name": "Amel Trabelsi",
+    "yearsOfPractice": 17,
+    "region": "kairouan",
+    "primaryCategory": "textile",
+    "story": {
+      "en": "Amel learned to weave at fourteen on her aunt's loom. She now works with three other weavers in a renovated courtyard near the Great Mosque, dyeing wool with madder, indigo and pomegranate. Each kilim takes between three and seven weeks.",
+      "fr": "Amel a appris à tisser à quatorze ans sur le métier de sa tante. Elle travaille aujourd'hui avec trois autres tisseuses dans une cour rénovée près de la Grande Mosquée, et teint la laine à la garance, à l'indigo et à la grenade. Chaque kilim demande de trois à sept semaines.",
+      "ar-TN": "[À VALIDER PME] آمل تعلّمت تنسج في عمر 14 سنة عند خالتها. اليوم تخدم مع 3 نسّاجات قدّام الجامع الكبير، تصبغ الصوف بالنباتات. كل كليم ياخذ من 3 ل 7 أسابيع."
+    },
+    "shortBio": {
+      "en": "Hand-woven kilims, plant-dyed wool, Kairouan.",
+      "fr": "Kilims tissés main, laine teinte aux plantes, Kairouan.",
+      "ar-TN": "كليم منسوج باليد، صوف مصبوغ بالنبات، القيروان."
+    },
+    "portrait": "/images/seed/artisans/amel-trabelsi-portrait.webp",
+    "workshopPhoto": "/images/seed/artisans/amel-trabelsi-workshop.webp",
+    "isPublic": true
+  },
+  {
+    "id": "01HNA0MZ6L8P2D4F6H8J0K2MNB",
+    "slug": "salah-mejri-sfax",
+    "name": "Salah Mejri",
+    "yearsOfPractice": 28,
+    "region": "sfax",
+    "primaryCategory": "leather",
+    "story": {
+      "en": "Salah cuts and stitches by hand in a workshop two streets from the medina souk. He buys his leather from a single tannery in the south that still uses vegetable agents — pomegranate skins, sumac, oak galls. No metal hardware on his pieces; everything closes with leather knots.",
+      "fr": "Salah coupe et coud à la main dans un atelier à deux rues du souk de la médina. Il achète son cuir à une seule tannerie du sud qui travaille encore aux tanins végétaux — peaux de grenade, sumac, noix de galle. Aucun métal sur ses pièces ; tout ferme par des nœuds de cuir.",
+      "ar-TN": "[À VALIDER PME] صالح يقصّ و يخيّط باليد في ورشة قريبة من سوق المدينة. الجلد ياخذو من دبّاغة وحدة في الجنوب تستعمل قشور الرمّان و السماق."
+    },
+    "shortBio": {
+      "en": "Hand-stitched leather, vegetable-tanned, Sfax medina.",
+      "fr": "Cuir cousu main, tanin végétal, médina de Sfax.",
+      "ar-TN": "جلد مخيوط باليد، مدبوغ نباتي، مدينة صفاقس."
+    },
+    "portrait": "/images/seed/artisans/salah-mejri-portrait.webp",
+    "isPublic": true
+  },
+  {
+    "id": "01HNA0NF8K3M5R7T9V1X3Z5BCD",
+    "slug": "leila-khaldi-sidi-bou-said",
+    "name": "Leïla Khaldi",
+    "yearsOfPractice": 14,
+    "region": "sidi-bou-said",
+    "primaryCategory": "jewelry",
+    "story": {
+      "en": "Leïla studied silversmithing in Tunis, came back to Sidi Bou to open a small studio above her family's house. She works almost exclusively in 925 silver and reworks Berber motifs — fibulae, hand-of-Fatma, geometric pendants — into pieces that read as contemporary, not folkloric.",
+      "fr": "Leïla a étudié l'orfèvrerie à Tunis, et est revenue à Sidi Bou ouvrir un petit atelier au-dessus de la maison familiale. Elle travaille presque exclusivement l'argent 925 et revisite les motifs berbères — fibules, main de Fatma, pendentifs géométriques — dans des pièces qui se lisent contemporaines, pas folkloriques.",
+      "ar-TN": "[À VALIDER PME] ليلى قرّات الصياغة في تونس، رجعت لسيدي بوسعيد فتحت ورشة صغيرة فوق دار العايلة. تخدم بالفضة 925 و تعيد قراءة النقوش البربرية بطريقة معاصرة."
+    },
+    "shortBio": {
+      "en": "Contemporary silver pieces with Berber motifs, Sidi Bou Saïd.",
+      "fr": "Pièces d'argent contemporaines aux motifs berbères, Sidi Bou Saïd.",
+      "ar-TN": "فضّة معاصرة بنقوش بربرية، سيدي بوسعيد."
+    },
+    "portrait": "/images/seed/artisans/leila-khaldi-portrait.webp",
+    "isPublic": true
+  },
+  {
+    "id": "01HNA0P5J7H9G2F4D6S8A0Q2WER",
+    "slug": "moncef-haddad-tozeur",
+    "name": "Moncef Haddad",
+    "yearsOfPractice": 35,
+    "region": "tozeur",
+    "primaryCategory": "wood",
+    "story": {
+      "en": "Moncef carves olive wood salvaged from old trees taken down in the oases — never green wood. He's been working with his eldest son Karim for six years now. Their boards and utensils carry the traces of their earlier life: a knot, a curve, a discoloured patch left visible.",
+      "fr": "Moncef sculpte le bois d'olivier récupéré sur des arbres anciens abattus dans les oasis — jamais de bois vert. Il travaille avec son fils aîné Karim depuis six ans. Leurs planches et ustensiles gardent la trace de leur vie antérieure : un nœud, une courbe, une tache laissée visible.",
+      "ar-TN": "[À VALIDER PME] منصف ينحت خشب الزيتون الي يجي من شجر قديم في الواحات. يخدم مع وليده كريم من 6 سنين. الطبلات و الأدوات يخلّيوا فيها أثر حياتها الأولى."
+    },
+    "shortBio": {
+      "en": "Olive wood salvaged from oasis trees, Tozeur.",
+      "fr": "Bois d'olivier récupéré des oasis, Tozeur.",
+      "ar-TN": "خشب الزيتون من الواحات، توزر."
+    },
+    "portrait": "/images/seed/artisans/moncef-haddad-portrait.webp",
+    "workshopPhoto": "/images/seed/artisans/moncef-haddad-workshop.webp",
+    "isPublic": true
+  }
+]

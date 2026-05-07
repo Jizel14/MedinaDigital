@@ -1,0 +1,858 @@
+[
+  {
+    "productId": "01HNA1A0N5T6V8X0Z2B4D6F8GH",
+    "trusttagId": "TT01HNA1A0N5T6V8X0Z2B4D6F8GH",
+    "countryOfOrigin": "TN",
+    "region": "nabeul",
+    "artisan": {
+      "id": "01HNA0K5RT4Z3M2W4F8X9G7BCD",
+      "name": "Khaled Ben Ahmed",
+      "workshopRegion": "Nabeul"
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Red Nabeul clay",
+          "fr": "Argile rouge de Nabeul",
+          "ar-TN": "طين أحمر نابلي"
+        },
+        "percentage": 90,
+        "origin": "Nabeul, Tunisia"
+      },
+      {
+        "name": { "en": "White kaolin slip", "fr": "Engobe kaolin blanc", "ar-TN": "طين أبيض" },
+        "percentage": 8,
+        "origin": "Tunisia"
+      },
+      {
+        "name": { "en": "Iron oxide pigments", "fr": "Oxydes de fer", "ar-TN": "أكسيد حديد" },
+        "percentage": 2
+      }
+    ],
+    "carbonFootprintKgCo2e": 1.8,
+    "waterUsageLiters": 14,
+    "energySource": "mixed",
+    "expectedLifetimeYears": 25,
+    "careInstructions": {
+      "en": "Hand-wash with mild soap. Avoid sudden temperature changes. Microwave-safe up to 70°C.",
+      "fr": "Laver à la main au savon doux. Éviter les chocs thermiques. Compatible micro-ondes jusqu'à 70°C.",
+      "ar-TN": "غسل باليد بصابون خفيف. تجنّب التغيّر السريع للحرارة."
+    },
+    "repairOptions": {
+      "en": "Glaze chips can be touched up at the workshop. Send back via Médina Digital.",
+      "fr": "Les éclats de glaçure peuvent être retouchés à l'atelier. Renvoi via Médina Digital.",
+      "ar-TN": "[À VALIDER PME] الأخطاء في الطلاء يقدر يصلّحها صالح في الورشة."
+    },
+    "endOfLife": {
+      "en": "Crush and use as drainage in pots, or return to a clay-recycling workshop.",
+      "fr": "Broyer et utiliser en drainage de pots, ou rapporter à un atelier de recyclage d'argile.",
+      "ar-TN": "[À VALIDER PME] دقّ و استعمل في تصريف الماء في الأواني، ولا رجّع للورشة."
+    },
+    "productionDate": "2026-04-12",
+    "batchId": "KBA-2026-Q2-04",
+    "certifications": ["Hand-thrown", "Wood-fired"],
+    "verifiedAt": "2026-04-14",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1B2P7Q4R6S8T0U2V4W6XY",
+    "trusttagId": "TT01HNA1B2P7Q4R6S8T0U2V4W6XY",
+    "countryOfOrigin": "TN",
+    "region": "nabeul",
+    "artisan": {
+      "id": "01HNA0K5RT4Z3M2W4F8X9G7BCD",
+      "name": "Khaled Ben Ahmed",
+      "workshopRegion": "Nabeul"
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Red Nabeul clay",
+          "fr": "Argile rouge de Nabeul",
+          "ar-TN": "طين أحمر نابلي"
+        },
+        "percentage": 92,
+        "origin": "Nabeul, Tunisia"
+      },
+      {
+        "name": {
+          "en": "Cobalt & ochre pigments",
+          "fr": "Cobalt et ocre",
+          "ar-TN": "كوبالت و أصفر"
+        },
+        "percentage": 8
+      }
+    ],
+    "carbonFootprintKgCo2e": 0.6,
+    "waterUsageLiters": 5,
+    "energySource": "mixed",
+    "expectedLifetimeYears": 20,
+    "careInstructions": {
+      "en": "Dishwasher-safe up to 50°C. Microwave-safe.",
+      "fr": "Lave-vaisselle jusqu'à 50°C. Micro-ondes OK.",
+      "ar-TN": "ماشي مع الجلّاية للماء حتى 50°."
+    },
+    "repairOptions": null,
+    "endOfLife": {
+      "en": "Crush and reuse as drainage. The clay is fully ceramic and inert.",
+      "fr": "Broyer et réutiliser en drainage. L'argile est entièrement céramique et inerte.",
+      "ar-TN": "[À VALIDER PME] دقّ و استعمل في التصريف."
+    },
+    "productionDate": "2026-04-15",
+    "batchId": "KBA-2026-Q2-05",
+    "certifications": [],
+    "verifiedAt": "2026-04-16",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1C4S8U2W6Y0A2C4E6G8IJ",
+    "trusttagId": "TT01HNA1C4S8U2W6Y0A2C4E6G8IJ",
+    "countryOfOrigin": "TN",
+    "region": "nabeul",
+    "artisan": {
+      "id": "01HNA0K5RT4Z3M2W4F8X9G7BCD",
+      "name": "Khaled Ben Ahmed",
+      "workshopRegion": "Nabeul"
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Red Nabeul clay",
+          "fr": "Argile rouge de Nabeul",
+          "ar-TN": "طين أحمر نابلي"
+        },
+        "percentage": 88,
+        "origin": "Nabeul, Tunisia"
+      },
+      { "name": { "en": "Indigo pigment", "fr": "Indigo", "ar-TN": "أزرق نيلي" }, "percentage": 5 },
+      {
+        "name": { "en": "Lead-free glaze", "fr": "Glaçure sans plomb", "ar-TN": "طلاء بلا رصاص" },
+        "percentage": 7,
+        "certifications": ["EN 71-3 lead-free"]
+      }
+    ],
+    "carbonFootprintKgCo2e": 3.2,
+    "waterUsageLiters": 22,
+    "energySource": "mixed",
+    "expectedLifetimeYears": 50,
+    "careInstructions": {
+      "en": "Dust with a soft cloth. Watertight for fresh flowers.",
+      "fr": "Dépoussiérer au chiffon doux. Étanche pour fleurs fraîches.",
+      "ar-TN": "نظّف بقماش ناعم. ماء يقعد فيه للورد."
+    },
+    "repairOptions": {
+      "en": "Hairline cracks can be sealed at the workshop.",
+      "fr": "Les fissures fines peuvent être colmatées à l'atelier.",
+      "ar-TN": "[À VALIDER PME] الشقوق الرقيقة تتصلّح في الورشة."
+    },
+    "endOfLife": {
+      "en": "Return to Médina Digital workshop network for clay recycling.",
+      "fr": "Renvoi au réseau d'ateliers Médina Digital pour recyclage de l'argile.",
+      "ar-TN": "[À VALIDER PME] رجّع للورشة لإعادة التدوير."
+    },
+    "productionDate": "2026-04-20",
+    "batchId": "KBA-2026-Q2-06",
+    "certifications": ["EN 71-3 lead-free glaze"],
+    "verifiedAt": "2026-04-22",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1D6V2X4Z6B8D0F2H4J6KL",
+    "trusttagId": "TT01HNA1D6V2X4Z6B8D0F2H4J6KL",
+    "countryOfOrigin": "TN",
+    "region": "sejnane",
+    "artisan": {
+      "id": "01HNA0KPQ8B5T7X3Y9Z2C4D6EF",
+      "name": "Fatma Bouazizi",
+      "workshopRegion": "Sejnane"
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Red coil clay, hillside dug",
+          "fr": "Argile rouge, prélevée à la colline",
+          "ar-TN": "طين أحمر من الجبل"
+        },
+        "percentage": 95,
+        "origin": "Sejnane, Tunisia"
+      },
+      {
+        "name": { "en": "Iron oxide", "fr": "Oxyde de fer", "ar-TN": "أكسيد حديد" },
+        "percentage": 5
+      }
+    ],
+    "carbonFootprintKgCo2e": 1.1,
+    "waterUsageLiters": 9,
+    "energySource": "mixed",
+    "expectedLifetimeYears": 60,
+    "careInstructions": {
+      "en": "Dust only. Not food-contact (use for dry storage or display).",
+      "fr": "Dépoussiérer. Pas de contact alimentaire (stockage sec ou décoration).",
+      "ar-TN": "نظّف بالقماش، موش للأكل."
+    },
+    "repairOptions": null,
+    "endOfLife": {
+      "en": "Pure clay, returns to earth without contamination. Bury or crush.",
+      "fr": "Argile pure, retourne à la terre sans contamination. Enfouir ou broyer.",
+      "ar-TN": "[À VALIDER PME] طين خالص، يرجع للأرض بلا تلوّث."
+    },
+    "productionDate": "2026-03-28",
+    "batchId": "FBZ-2026-Q1-12",
+    "certifications": ["UNESCO intangible heritage technique"],
+    "verifiedAt": "2026-03-30",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1E8X4Z8B2D6F0H4J8L2MN",
+    "trusttagId": "TT01HNA1E8X4Z8B2D6F0H4J8L2MN",
+    "countryOfOrigin": "TN",
+    "region": "sejnane",
+    "artisan": {
+      "id": "01HNA0KPQ8B5T7X3Y9Z2C4D6EF",
+      "name": "Fatma Bouazizi",
+      "workshopRegion": "Sejnane"
+    },
+    "materials": [
+      {
+        "name": { "en": "Red coil clay", "fr": "Argile rouge", "ar-TN": "طين أحمر" },
+        "percentage": 96,
+        "origin": "Sejnane, Tunisia"
+      },
+      {
+        "name": { "en": "Iron oxide", "fr": "Oxyde de fer", "ar-TN": "أكسيد حديد" },
+        "percentage": 4
+      }
+    ],
+    "carbonFootprintKgCo2e": 0.4,
+    "waterUsageLiters": 3,
+    "energySource": "mixed",
+    "expectedLifetimeYears": 80,
+    "careInstructions": {
+      "en": "Display only. Dust with a feather brush.",
+      "fr": "Présentation uniquement. Dépoussiérer au plumeau.",
+      "ar-TN": "للعرض فقط، نظّف بريشة."
+    },
+    "repairOptions": null,
+    "endOfLife": {
+      "en": "Pure clay, returns to earth.",
+      "fr": "Argile pure, retourne à la terre.",
+      "ar-TN": "[À VALIDER PME] طين خالص."
+    },
+    "productionDate": "2026-04-02",
+    "batchId": "FBZ-2026-Q2-01",
+    "certifications": ["UNESCO intangible heritage technique"],
+    "verifiedAt": "2026-04-04",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1F0Z6B0D4F8H2J6L0N4PQ",
+    "trusttagId": "TT01HNA1F0Z6B0D4F8H2J6L0N4PQ",
+    "countryOfOrigin": "TN",
+    "region": "sejnane",
+    "artisan": {
+      "id": "01HNA0KPQ8B5T7X3Y9Z2C4D6EF",
+      "name": "Fatma Bouazizi",
+      "workshopRegion": "Sejnane"
+    },
+    "materials": [
+      {
+        "name": { "en": "Red coil clay", "fr": "Argile rouge", "ar-TN": "طين أحمر" },
+        "percentage": 95,
+        "origin": "Sejnane, Tunisia"
+      },
+      {
+        "name": { "en": "Iron oxide pigments", "fr": "Oxydes de fer", "ar-TN": "أكاسيد حديد" },
+        "percentage": 5
+      }
+    ],
+    "carbonFootprintKgCo2e": 0.9,
+    "waterUsageLiters": 7,
+    "energySource": "mixed",
+    "expectedLifetimeYears": 50,
+    "careInstructions": {
+      "en": "Hand-wash, no abrasives. Not microwave-safe (open-fired pottery).",
+      "fr": "Laver à la main, sans abrasif. Pas de micro-ondes (poterie cuite à feu ouvert).",
+      "ar-TN": "غسل باليد بلا حكّ. موش ميكرو."
+    },
+    "repairOptions": null,
+    "endOfLife": {
+      "en": "Pure clay, returns to earth.",
+      "fr": "Argile pure, retourne à la terre.",
+      "ar-TN": "[À VALIDER PME] طين خالص."
+    },
+    "productionDate": "2026-04-08",
+    "batchId": "FBZ-2026-Q2-02",
+    "certifications": ["UNESCO intangible heritage technique"],
+    "verifiedAt": "2026-04-10",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1G2B8D2F6H0J4L8N2P6RS",
+    "trusttagId": "TT01HNA1G2B8D2F6H0J4L8N2P6RS",
+    "countryOfOrigin": "TN",
+    "region": "kairouan",
+    "artisan": {
+      "id": "01HNA0M2NXJ4K9Q5W7Y3R1S5UV",
+      "name": "Amel Trabelsi",
+      "workshopRegion": "Kairouan"
+    },
+    "materials": [
+      {
+        "name": { "en": "Tunisian wool", "fr": "Laine tunisienne", "ar-TN": "صوف تونسي" },
+        "percentage": 88,
+        "origin": "Kairouan plains, Tunisia"
+      },
+      {
+        "name": { "en": "Cotton warp", "fr": "Chaîne de coton", "ar-TN": "سدا قطن" },
+        "percentage": 8
+      },
+      {
+        "name": { "en": "Plant dyes", "fr": "Teintures végétales", "ar-TN": "صباغة نباتية" },
+        "percentage": 4,
+        "certifications": ["GOTS"]
+      }
+    ],
+    "carbonFootprintKgCo2e": 8.5,
+    "waterUsageLiters": 240,
+    "energySource": "grid",
+    "expectedLifetimeYears": 80,
+    "careInstructions": {
+      "en": "Vacuum gently with low suction. Spot-clean with cool water and mild soap. Dry-clean only for full wash.",
+      "fr": "Aspirer doucement. Détacher à l'eau froide et savon doux. Nettoyage à sec uniquement pour lavage complet.",
+      "ar-TN": "نظّف بالمكنسة بحذر. البقع بالماء البارد. التنظيف الكامل بالغسل الجاف."
+    },
+    "repairOptions": {
+      "en": "Reweaving available at Amel's workshop for damaged areas.",
+      "fr": "Retissage possible à l'atelier d'Amel pour les zones abîmées.",
+      "ar-TN": "[À VALIDER PME] إعادة النسج ممكنة في ورشة آمل للمناطق المتضرّرة."
+    },
+    "endOfLife": {
+      "en": "100% biodegradable wool & cotton. Compost or return to Médina Digital for recycling.",
+      "fr": "Laine et coton 100% biodégradables. Compost ou retour à Médina Digital pour recyclage.",
+      "ar-TN": "[À VALIDER PME] الصوف و القطن قابلين للتحلّل بنسبة 100%."
+    },
+    "productionDate": "2026-03-15",
+    "batchId": "ATR-2026-Q1-08",
+    "certifications": ["GOTS plant dyes", "Hand-woven"],
+    "verifiedAt": "2026-03-18",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1H4D2F6H0J4L8N2P6R0TU",
+    "trusttagId": "TT01HNA1H4D2F6H0J4L8N2P6R0TU",
+    "countryOfOrigin": "TN",
+    "region": "kairouan",
+    "artisan": {
+      "id": "01HNA0M2NXJ4K9Q5W7Y3R1S5UV",
+      "name": "Amel Trabelsi",
+      "workshopRegion": "Kairouan"
+    },
+    "materials": [
+      {
+        "name": { "en": "Tunisian wool", "fr": "Laine tunisienne", "ar-TN": "صوف تونسي" },
+        "percentage": 70
+      },
+      { "name": { "en": "Linen", "fr": "Lin", "ar-TN": "كتّان" }, "percentage": 28 },
+      { "name": { "en": "Indigo dye", "fr": "Indigo", "ar-TN": "نيلة" }, "percentage": 2 }
+    ],
+    "carbonFootprintKgCo2e": 1.4,
+    "waterUsageLiters": 38,
+    "energySource": "grid",
+    "expectedLifetimeYears": 25,
+    "careInstructions": {
+      "en": "Remove cover, machine wash cold (30°C), gentle cycle. Air-dry.",
+      "fr": "Retirer la housse, lavage machine à froid (30°C), cycle délicat. Séchage à l'air.",
+      "ar-TN": "اخرج الغطاء، اغسل في الماكينة على البارد، يوبس في الهواء."
+    },
+    "repairOptions": null,
+    "endOfLife": {
+      "en": "Biodegradable. Compost the wool and linen.",
+      "fr": "Biodégradable. Compost.",
+      "ar-TN": "[À VALIDER PME] قابل للتحلّل، صالح للسماد."
+    },
+    "productionDate": "2026-04-05",
+    "batchId": "ATR-2026-Q2-03",
+    "certifications": [],
+    "verifiedAt": "2026-04-07",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1J6F2H6J0L4N8P2R6T0VW",
+    "trusttagId": "TT01HNA1J6F2H6J0L4N8P2R6T0VW",
+    "countryOfOrigin": "TN",
+    "region": "kairouan",
+    "artisan": {
+      "id": "01HNA0M2NXJ4K9Q5W7Y3R1S5UV",
+      "name": "Amel Trabelsi",
+      "workshopRegion": "Kairouan"
+    },
+    "materials": [
+      {
+        "name": { "en": "Tunisian wool", "fr": "Laine tunisienne", "ar-TN": "صوف تونسي" },
+        "percentage": 92,
+        "origin": "Kairouan, Tunisia"
+      },
+      {
+        "name": { "en": "Cotton warp", "fr": "Chaîne coton", "ar-TN": "سدا قطن" },
+        "percentage": 6
+      },
+      { "name": { "en": "Indigo dye", "fr": "Indigo", "ar-TN": "نيلة" }, "percentage": 2 }
+    ],
+    "carbonFootprintKgCo2e": 6.2,
+    "waterUsageLiters": 180,
+    "energySource": "grid",
+    "expectedLifetimeYears": 60,
+    "careInstructions": {
+      "en": "Vacuum weekly with low suction. Rotate every 6 months. Dry-clean only.",
+      "fr": "Aspirer chaque semaine avec faible aspiration. Pivoter tous les 6 mois. Nettoyage à sec uniquement.",
+      "ar-TN": "نظّف بالمكنسة كل أسبوع. قلّب كل 6 أشهر."
+    },
+    "repairOptions": {
+      "en": "Reknotting available at Amel's workshop.",
+      "fr": "Renoeudage possible à l'atelier d'Amel.",
+      "ar-TN": "[À VALIDER PME] إعادة العقد ممكنة."
+    },
+    "endOfLife": {
+      "en": "100% biodegradable.",
+      "fr": "100% biodégradable.",
+      "ar-TN": "[À VALIDER PME] قابل للتحلّل."
+    },
+    "productionDate": "2026-04-22",
+    "batchId": "ATR-2026-Q2-09",
+    "certifications": ["Hand-knotted"],
+    "verifiedAt": "2026-04-24",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1K8H6J0L4N8P2R6T0V4XY",
+    "trusttagId": "TT01HNA1K8H6J0L4N8P2R6T0V4XY",
+    "countryOfOrigin": "TN",
+    "region": "sfax",
+    "artisan": {
+      "id": "01HNA0MZ6L8P2D4F6H8J0K2MNB",
+      "name": "Salah Mejri",
+      "workshopRegion": "Sfax"
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Vegetable-tanned cow leather",
+          "fr": "Cuir de vache tanné végétal",
+          "ar-TN": "جلد بقر مدبوغ نباتي"
+        },
+        "percentage": 96,
+        "origin": "Sfax, Tunisia"
+      },
+      {
+        "name": { "en": "Waxed linen thread", "fr": "Fil de lin ciré", "ar-TN": "خيط كتّان مشمّع" },
+        "percentage": 4
+      }
+    ],
+    "carbonFootprintKgCo2e": 7.8,
+    "waterUsageLiters": 120,
+    "energySource": "grid",
+    "expectedLifetimeYears": 30,
+    "careInstructions": {
+      "en": "Wipe with damp cloth. Condition with neutral leather cream every 3-6 months.",
+      "fr": "Essuyer au chiffon humide. Nourrir à la crème cuir neutre tous les 3-6 mois.",
+      "ar-TN": "امسح بقماش رطب. زيّت بكريم جلد كل 3-6 أشهر."
+    },
+    "repairOptions": {
+      "en": "Lifetime stitching repair at Salah's workshop. Send via Médina Digital.",
+      "fr": "Réparation de couture à vie à l'atelier de Salah. Renvoi via Médina Digital.",
+      "ar-TN": "[À VALIDER PME] تصليح الخياطة مدى الحياة في ورشة صالح."
+    },
+    "endOfLife": {
+      "en": "Vegetable-tanned leather is biodegradable in 25-50 years. Linen thread is fully biodegradable.",
+      "fr": "Le cuir tanné végétal est biodégradable en 25-50 ans. Le fil de lin est entièrement biodégradable.",
+      "ar-TN": "[À VALIDER PME] الجلد المدبوغ نباتي يتحلّل في 25-50 سنة."
+    },
+    "productionDate": "2026-04-10",
+    "batchId": "SMJ-2026-Q2-04",
+    "certifications": ["Vegetable-tanned"],
+    "verifiedAt": "2026-04-12",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1L0J0L4N8P2R6T0V4X8ZA",
+    "trusttagId": "TT01HNA1L0J0L4N8P2R6T0V4X8ZA",
+    "countryOfOrigin": "TN",
+    "region": "sfax",
+    "artisan": {
+      "id": "01HNA0MZ6L8P2D4F6H8J0K2MNB",
+      "name": "Salah Mejri",
+      "workshopRegion": "Sfax"
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Vegetable-tanned cow leather",
+          "fr": "Cuir de vache tanné végétal",
+          "ar-TN": "جلد بقر مدبوغ نباتي"
+        },
+        "percentage": 95,
+        "origin": "Sfax, Tunisia"
+      },
+      {
+        "name": { "en": "Waxed linen thread", "fr": "Fil de lin ciré", "ar-TN": "خيط كتّان مشمّع" },
+        "percentage": 5
+      }
+    ],
+    "carbonFootprintKgCo2e": 0.9,
+    "waterUsageLiters": 14,
+    "energySource": "grid",
+    "expectedLifetimeYears": 20,
+    "careInstructions": {
+      "en": "Wipe with damp cloth. Condition annually.",
+      "fr": "Chiffon humide. Crème cuir une fois par an.",
+      "ar-TN": "امسح بقماش رطب. كريم مرّة في السنة."
+    },
+    "repairOptions": null,
+    "endOfLife": {
+      "en": "Biodegradable.",
+      "fr": "Biodégradable.",
+      "ar-TN": "[À VALIDER PME] قابل للتحلّل."
+    },
+    "productionDate": "2026-03-30",
+    "batchId": "SMJ-2026-Q1-15",
+    "certifications": ["Vegetable-tanned"],
+    "verifiedAt": "2026-04-01",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1M2L4N8P2R6T0V4X8Z2BCD",
+    "trusttagId": "TT01HNA1M2L4N8P2R6T0V4X8Z2BCD",
+    "countryOfOrigin": "TN",
+    "region": "sfax",
+    "artisan": {
+      "id": "01HNA0MZ6L8P2D4F6H8J0K2MNB",
+      "name": "Salah Mejri",
+      "workshopRegion": "Sfax"
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Vegetable-tanned cow leather",
+          "fr": "Cuir de vache tanné végétal",
+          "ar-TN": "جلد بقر مدبوغ نباتي"
+        },
+        "percentage": 80
+      },
+      {
+        "name": {
+          "en": "Recycled steel buckle",
+          "fr": "Boucle acier recyclé",
+          "ar-TN": "مشبك ستيل مرسكل"
+        },
+        "percentage": 18
+      },
+      {
+        "name": { "en": "Waxed linen thread", "fr": "Fil de lin ciré", "ar-TN": "خيط كتّان مشمّع" },
+        "percentage": 2
+      }
+    ],
+    "carbonFootprintKgCo2e": 2.4,
+    "waterUsageLiters": 38,
+    "energySource": "grid",
+    "expectedLifetimeYears": 25,
+    "careInstructions": {
+      "en": "Wipe leather with damp cloth. Polish steel buckle with dry cloth occasionally.",
+      "fr": "Chiffon humide pour le cuir. Polir la boucle au chiffon sec occasionnellement.",
+      "ar-TN": "قماش رطب للجلد. لمّع المشبك بقماش يابس."
+    },
+    "repairOptions": {
+      "en": "New holes can be punched at Salah's workshop if your size changes.",
+      "fr": "Nouveaux trous possibles à l'atelier de Salah si la taille change.",
+      "ar-TN": "[À VALIDER PME] ثقوب جديدة ممكنة في الورشة."
+    },
+    "endOfLife": {
+      "en": "Leather biodegradable. Steel buckle: send to metal recycling.",
+      "fr": "Cuir biodégradable. Boucle acier : recyclage métal.",
+      "ar-TN": "[À VALIDER PME] الجلد للتحلّل. المشبك للمعدن."
+    },
+    "productionDate": "2026-04-18",
+    "batchId": "SMJ-2026-Q2-08",
+    "certifications": ["Vegetable-tanned", "Recycled steel"],
+    "verifiedAt": "2026-04-20",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1N4N8P2R6T0V4X8Z2B6DEF",
+    "trusttagId": "TT01HNA1N4N8P2R6T0V4X8Z2B6DEF",
+    "countryOfOrigin": "TN",
+    "region": "sidi-bou-said",
+    "artisan": {
+      "id": "01HNA0NF8K3M5R7T9V1X3Z5BCD",
+      "name": "Leïla Khaldi",
+      "workshopRegion": "Sidi Bou Saïd"
+    },
+    "materials": [
+      {
+        "name": { "en": "925 sterling silver", "fr": "Argent 925", "ar-TN": "فضّة 925" },
+        "percentage": 100,
+        "certifications": ["Hallmark Tunisia 925"]
+      }
+    ],
+    "carbonFootprintKgCo2e": 4.6,
+    "waterUsageLiters": 28,
+    "energySource": "grid",
+    "expectedLifetimeYears": 200,
+    "careInstructions": {
+      "en": "Polish with silver cloth. Store in airtight pouch when not worn to slow tarnishing.",
+      "fr": "Polir au chiffon argent. Conserver en pochette hermétique pour ralentir le ternissement.",
+      "ar-TN": "لمّع بقماش الفضّة. خبّيها في كيس مسكور."
+    },
+    "repairOptions": {
+      "en": "Pin sharpening and bar straightening free of charge at Leïla's studio.",
+      "fr": "Affûtage de pointe et redressage de barre offerts au studio de Leïla.",
+      "ar-TN": "[À VALIDER PME] التصليح في ستوديو ليلى مجّاني."
+    },
+    "endOfLife": {
+      "en": "Silver is infinitely recyclable. Return to Leïla's studio for full credit.",
+      "fr": "L'argent est recyclable à l'infini. Retour au studio de Leïla pour crédit intégral.",
+      "ar-TN": "[À VALIDER PME] الفضّة تتعاد التدوير، رجّع لستوديو ليلى."
+    },
+    "productionDate": "2026-04-04",
+    "batchId": "LKH-2026-Q2-02",
+    "certifications": ["Hallmark Tunisia 925"],
+    "verifiedAt": "2026-04-06",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1P6P2R6T0V4X8Z2B6D0FGH",
+    "trusttagId": "TT01HNA1P6P2R6T0V4X8Z2B6D0FGH",
+    "countryOfOrigin": "TN",
+    "region": "sidi-bou-said",
+    "artisan": {
+      "id": "01HNA0NF8K3M5R7T9V1X3Z5BCD",
+      "name": "Leïla Khaldi",
+      "workshopRegion": "Sidi Bou Saïd"
+    },
+    "materials": [
+      {
+        "name": { "en": "925 sterling silver", "fr": "Argent 925", "ar-TN": "فضّة 925" },
+        "percentage": 100,
+        "certifications": ["Hallmark Tunisia 925"]
+      }
+    ],
+    "carbonFootprintKgCo2e": 3.1,
+    "waterUsageLiters": 18,
+    "energySource": "grid",
+    "expectedLifetimeYears": 200,
+    "careInstructions": {
+      "en": "Silver polish cloth. Remove before showering.",
+      "fr": "Chiffon argent. Retirer avant la douche.",
+      "ar-TN": "لمّع. اخرجها قبل الدوش."
+    },
+    "repairOptions": {
+      "en": "Chain replacement at cost.",
+      "fr": "Remplacement de chaîne au prix coûtant.",
+      "ar-TN": "[À VALIDER PME] تبديل السلسلة بسعر التكلفة."
+    },
+    "endOfLife": {
+      "en": "Silver fully recyclable.",
+      "fr": "Argent recyclable à 100%.",
+      "ar-TN": "[À VALIDER PME] فضّة تعاد تدوير كاملة."
+    },
+    "productionDate": "2026-04-11",
+    "batchId": "LKH-2026-Q2-03",
+    "certifications": ["Hallmark Tunisia 925"],
+    "verifiedAt": "2026-04-13",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1Q8R2T0V4X8Z2B6D0F4HIJ",
+    "trusttagId": "TT01HNA1Q8R2T0V4X8Z2B6D0F4HIJ",
+    "countryOfOrigin": "TN",
+    "region": "sidi-bou-said",
+    "artisan": {
+      "id": "01HNA0NF8K3M5R7T9V1X3Z5BCD",
+      "name": "Leïla Khaldi",
+      "workshopRegion": "Sidi Bou Saïd"
+    },
+    "materials": [
+      {
+        "name": { "en": "925 sterling silver", "fr": "Argent 925", "ar-TN": "فضّة 925" },
+        "percentage": 95
+      },
+      {
+        "name": {
+          "en": "Surgical titanium hooks",
+          "fr": "Crochets titane chirurgical",
+          "ar-TN": "حلق تيتانيوم طبّي"
+        },
+        "percentage": 5,
+        "certifications": ["EN 1811 nickel-free"]
+      }
+    ],
+    "carbonFootprintKgCo2e": 2.2,
+    "waterUsageLiters": 12,
+    "energySource": "grid",
+    "expectedLifetimeYears": 150,
+    "careInstructions": {
+      "en": "Polish gently. Avoid pulling at the bar.",
+      "fr": "Polir doucement. Éviter de tirer sur la barre.",
+      "ar-TN": "لمّع بحذر."
+    },
+    "repairOptions": {
+      "en": "Hook replacement available.",
+      "fr": "Remplacement de crochet possible.",
+      "ar-TN": "[À VALIDER PME] تبديل الحلق ممكن."
+    },
+    "endOfLife": {
+      "en": "Silver and titanium both recyclable.",
+      "fr": "Argent et titane recyclables.",
+      "ar-TN": "[À VALIDER PME] الفضّة و التيتانيوم يعاد تدويرهم."
+    },
+    "productionDate": "2026-04-25",
+    "batchId": "LKH-2026-Q2-05",
+    "certifications": ["Hallmark Tunisia 925", "EN 1811 nickel-free"],
+    "verifiedAt": "2026-04-27",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1R0T6V0X4Z8B2D6F0H4JKL",
+    "trusttagId": "TT01HNA1R0T6V0X4Z8B2D6F0H4JKL",
+    "countryOfOrigin": "TN",
+    "region": "tozeur",
+    "artisan": {
+      "id": "01HNA0P5J7H9G2F4D6S8A0Q2WER",
+      "name": "Moncef Haddad",
+      "workshopRegion": "Tozeur"
+    },
+    "materials": [
+      {
+        "name": {
+          "en": "Olive wood, salvaged",
+          "fr": "Bois d'olivier, récupération",
+          "ar-TN": "خشب زيتون قديم"
+        },
+        "percentage": 99,
+        "origin": "Tozeur oases, Tunisia"
+      },
+      {
+        "name": {
+          "en": "Food-safe linseed oil",
+          "fr": "Huile de lin alimentaire",
+          "ar-TN": "زيت كتّان غذائي"
+        },
+        "percentage": 1,
+        "certifications": ["Food-contact safe EU 1935/2004"]
+      }
+    ],
+    "carbonFootprintKgCo2e": 0.8,
+    "waterUsageLiters": 4,
+    "energySource": "solar",
+    "expectedLifetimeYears": 50,
+    "careInstructions": {
+      "en": "Hand-wash, dry immediately. Re-oil quarterly with food-safe linseed.",
+      "fr": "Laver à la main, sécher immédiatement. Huiler tous les 3 mois à l'huile de lin alimentaire.",
+      "ar-TN": "غسل باليد و نشّف. زيّت كل 3 أشهر."
+    },
+    "repairOptions": {
+      "en": "Sand and re-oil yourself; or send to Moncef for restoration.",
+      "fr": "Poncer et rehuiler chez vous ; ou envoyer à Moncef pour restauration.",
+      "ar-TN": "[À VALIDER PME] تنظيف بالحفّاكة و الزيت."
+    },
+    "endOfLife": {
+      "en": "Wood and oil both compost. Take care if board has been heavily salt-soaked: rinse first.",
+      "fr": "Bois et huile compostent. Si la planche a beaucoup pris le sel : rincer avant.",
+      "ar-TN": "[À VALIDER PME] الخشب و الزيت في السماد."
+    },
+    "productionDate": "2026-04-01",
+    "batchId": "MHD-2026-Q2-01",
+    "certifications": ["Food-contact safe EU 1935/2004", "Salvaged olive wood"],
+    "verifiedAt": "2026-04-03",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1S2V0X4Z8B2D6F0H4J8LMN",
+    "trusttagId": "TT01HNA1S2V0X4Z8B2D6F0H4J8LMN",
+    "countryOfOrigin": "TN",
+    "region": "tozeur",
+    "artisan": {
+      "id": "01HNA0P5J7H9G2F4D6S8A0Q2WER",
+      "name": "Moncef Haddad",
+      "workshopRegion": "Tozeur"
+    },
+    "materials": [
+      {
+        "name": { "en": "Olive wood, salvaged", "fr": "Bois d'olivier", "ar-TN": "خشب زيتون" },
+        "percentage": 99
+      },
+      {
+        "name": { "en": "Linseed oil", "fr": "Huile de lin", "ar-TN": "زيت كتّان" },
+        "percentage": 1
+      }
+    ],
+    "carbonFootprintKgCo2e": 0.1,
+    "waterUsageLiters": 1,
+    "energySource": "solar",
+    "expectedLifetimeYears": 20,
+    "careInstructions": {
+      "en": "Hand-wash, dry. Oil monthly if used daily.",
+      "fr": "Laver main, sécher. Huiler chaque mois si utilisée quotidiennement.",
+      "ar-TN": "غسل و نشّف. زيّت كل شهر."
+    },
+    "repairOptions": null,
+    "endOfLife": {
+      "en": "Compost.",
+      "fr": "Compost.",
+      "ar-TN": "[À VALIDER PME] في السماد."
+    },
+    "productionDate": "2026-04-14",
+    "batchId": "MHD-2026-Q2-04",
+    "certifications": ["Food-contact safe EU 1935/2004"],
+    "verifiedAt": "2026-04-15",
+    "verifiedBy": "medina-digital"
+  },
+  {
+    "productId": "01HNA1T4X4Z8B2D6F0H4J8L2NOP",
+    "trusttagId": "TT01HNA1T4X4Z8B2D6F0H4J8L2NOP",
+    "countryOfOrigin": "TN",
+    "region": "tozeur",
+    "artisan": {
+      "id": "01HNA0P5J7H9G2F4D6S8A0Q2WER",
+      "name": "Moncef Haddad",
+      "workshopRegion": "Tozeur"
+    },
+    "materials": [
+      {
+        "name": { "en": "Olive wood, salvaged", "fr": "Bois d'olivier", "ar-TN": "خشب زيتون" },
+        "percentage": 97
+      },
+      {
+        "name": { "en": "Hide glue", "fr": "Colle de peau", "ar-TN": "صمغ الجلد" },
+        "percentage": 2
+      },
+      {
+        "name": { "en": "Linseed oil", "fr": "Huile de lin", "ar-TN": "زيت كتّان" },
+        "percentage": 1
+      }
+    ],
+    "carbonFootprintKgCo2e": 2.6,
+    "waterUsageLiters": 10,
+    "energySource": "solar",
+    "expectedLifetimeYears": 80,
+    "careInstructions": {
+      "en": "Wipe with damp cloth. Oil twice a year.",
+      "fr": "Chiffon humide. Huiler deux fois par an.",
+      "ar-TN": "قماش رطب. زيّت مرّتين في السنة."
+    },
+    "repairOptions": {
+      "en": "Leg replacement available — hide glue is reversible with steam.",
+      "fr": "Remplacement de pied possible — la colle de peau se défait à la vapeur.",
+      "ar-TN": "[À VALIDER PME] تبديل القائم ممكن، الصمغ يطلع بالبخار."
+    },
+    "endOfLife": {
+      "en": "Fully compostable. Hide glue and oil both natural.",
+      "fr": "Compostable. Colle et huile naturelles.",
+      "ar-TN": "[À VALIDER PME] قابل للتحلّل."
+    },
+    "productionDate": "2026-04-28",
+    "batchId": "MHD-2026-Q2-08",
+    "certifications": ["Salvaged olive wood"],
+    "verifiedAt": "2026-04-30",
+    "verifiedBy": "medina-digital"
+  }
+]

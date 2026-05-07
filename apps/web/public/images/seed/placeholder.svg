@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C77C3F"/>
+      <stop offset="100%" stop-color="#8B3A24"/>
+    </linearGradient>
+    <pattern id="p" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M40 16 L42.3 26.4 L50 21.4 L45 29.1 L55.4 31.4 L45 33.7 L50 41.4 L42.3 36.4 L40 46.8 L37.7 36.4 L30 41.4 L35 33.7 L24.6 31.4 L35 29.1 L30 21.4 L37.7 26.4 Z" fill="#F5EFE6" opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect width="800" height="600" fill="url(#p)"/>
+  <text x="400" y="305" text-anchor="middle" fill="#F5EFE6" font-family="serif" font-style="italic" font-size="32" opacity="0.85">Médina Digital</text>
+  <text x="400" y="345" text-anchor="middle" fill="#F5EFE6" font-family="sans-serif" font-size="13" letter-spacing="2" opacity="0.65">PHOTO PLACEHOLDER · SEED</text>
+</svg>

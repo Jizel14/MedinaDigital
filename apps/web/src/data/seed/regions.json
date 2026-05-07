@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "nabeul",
+    "name": { "en": "Nabeul", "fr": "Nabeul", "ar-TN": "نابل" },
+    "description": {
+      "en": "Cap Bon's pottery capital — clay fired since the Punic era, painted with berber motifs.",
+      "fr": "Capitale de la céramique du Cap Bon — argile cuite depuis l'époque punique, peinte aux motifs berbères.",
+      "ar-TN": "[À VALIDER PME] عاصمة الخزف في راس الطيب — الطين مطبوخ من العصر البوني، مزوّق بنقوش بربرية"
+    },
+    "mapCoords": { "x": 64, "y": 22 },
+    "knownFor": ["ceramics"]
+  },
+  {
+    "slug": "sejnane",
+    "name": { "en": "Sejnane", "fr": "Sejnane", "ar-TN": "سجنان" },
+    "description": {
+      "en": "Northern village where women shape coil-built pottery — UNESCO intangible heritage.",
+      "fr": "Village du nord où les femmes façonnent des poteries au colombin — patrimoine UNESCO.",
+      "ar-TN": "[À VALIDER PME] قرية في الشمال، النساء يعملوا الخزف باليد — تراث اليونسكو"
+    },
+    "mapCoords": { "x": 36, "y": 14 },
+    "knownFor": ["ceramics"]
+  },
+  {
+    "slug": "kairouan",
+    "name": { "en": "Kairouan", "fr": "Kairouan", "ar-TN": "القيروان" },
+    "description": {
+      "en": "Inland centre of weaving — knotted carpets and kilims, every house has a loom.",
+      "fr": "Centre du tissage — tapis noués et kilims, chaque maison a son métier.",
+      "ar-TN": "[À VALIDER PME] مركز النسيج — زرابي معقودة و كليم، كل دار فيها منوال"
+    },
+    "mapCoords": { "x": 51, "y": 48 },
+    "knownFor": ["textile"]
+  },
+  {
+    "slug": "sfax",
+    "name": { "en": "Sfax", "fr": "Sfax", "ar-TN": "صفاقس" },
+    "description": {
+      "en": "Coastal city with leather souks dating back to the 9th century.",
+      "fr": "Ville côtière, souks du cuir depuis le 9e siècle.",
+      "ar-TN": "[À VALIDER PME] مدينة ساحلية، أسواق الجلد من القرن 9"
+    },
+    "mapCoords": { "x": 60, "y": 64 },
+    "knownFor": ["leather"]
+  },
+  {
+    "slug": "sidi-bou-said",
+    "name": { "en": "Sidi Bou Saïd", "fr": "Sidi Bou Saïd", "ar-TN": "سيدي بوسعيد" },
+    "description": {
+      "en": "Blue and white village above the gulf — silver workshops and small ceramics.",
+      "fr": "Village bleu et blanc surplombant le golfe — bijouterie d'argent et petite céramique.",
+      "ar-TN": "[À VALIDER PME] قرية زرقة و بيضة فوق الخليج — فضّيين و خزف صغير"
+    },
+    "mapCoords": { "x": 55, "y": 17 },
+    "knownFor": ["jewelry", "ceramics"]
+  },
+  {
+    "slug": "djerba",
+    "name": { "en": "Djerba", "fr": "Djerba", "ar-TN": "جربة" },
+    "description": {
+      "en": "Island of weavers — wool and silk, distinctive striped patterns.",
+      "fr": "Île des tisserands — laine et soie, motifs rayés caractéristiques.",
+      "ar-TN": "[À VALIDER PME] جزيرة النسّاجة — صوف و حرير، نقوش مخطّطة"
+    },
+    "mapCoords": { "x": 65, "y": 78 },
+    "knownFor": ["textile", "jewelry"]
+  },
+  {
+    "slug": "tozeur",
+    "name": { "en": "Tozeur", "fr": "Tozeur", "ar-TN": "توزر" },
+    "description": {
+      "en": "Desert oasis — palm wood crafts, traditional brick patterns reinterpreted in objects.",
+      "fr": "Oasis du désert — artisanat du palmier, motifs de briques traditionnels.",
+      "ar-TN": "[À VALIDER PME] واحة في الصحراء — صناعة من النخيل و نقوش الطّوب التقليدية"
+    },
+    "mapCoords": { "x": 33, "y": 79 },
+    "knownFor": ["wood"]
+  },
+  {
+    "slug": "gabes",
+    "name": { "en": "Gabès", "fr": "Gabès", "ar-TN": "قابس" },
+    "description": {
+      "en": "Coastal oasis — palm leaf basketry and embroidered cushions.",
+      "fr": "Oasis maritime — vannerie de palmes et coussins brodés.",
+      "ar-TN": "[À VALIDER PME] واحة بحرية — قفف من سعف النخل و مخدّات مطرّزة"
+    },
+    "mapCoords": { "x": 56, "y": 73 },
+    "knownFor": ["textile"]
+  }
+]
