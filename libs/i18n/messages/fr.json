@@ -108,5 +108,67 @@
       "validationFailed": "Vérifiez les champs requis",
       "generic": "Une erreur est survenue, réessayez"
     }
+  },
+  "saas": {
+    "nav": {
+      "overview": "Tableau de bord",
+      "profile": "Profil",
+      "products": "Catalogue"
+    },
+    "dashboard": {
+      "title": "Bienvenue, {name}",
+      "products": "Produits publiés",
+      "isPublic": "Profil public",
+      "yes": "Oui",
+      "no": "Non",
+      "manageProfile": "Gérer le profil",
+      "manageProducts": "Gérer le catalogue"
+    },
+    "profile": {
+      "titleArtisan": "Profil artisan",
+      "titleTenant": "Profil PME",
+      "save": "Enregistrer",
+      "saved": "Enregistré",
+      "saving": "Enregistrement...",
+      "publicArtisan": "Rendre mon profil visible sur la marketplace",
+      "story": "Mon histoire",
+      "shortBio": "Présentation courte",
+      "preferredLanguage": "Langue préférée"
+    },
+    "products": {
+      "title": "Catalogue",
+      "newProduct": "Nouveau produit",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "deleteConfirm": "Supprimer ce produit ? Cette action est irréversible.",
+      "empty": "Vous n'avez pas encore de produits.",
+      "form": {
+        "slug": "Slug (URL)",
+        "title": "Titre",
+        "descriptionShort": "Description courte",
+        "descriptionLong": "Description longue",
+        "price": "Prix",
+        "priceTnd": "Prix TND",
+        "priceEur": "Prix EUR",
+        "weightG": "Poids (g)",
+        "dimensions": "Dimensions (cm)",
+        "lengthCm": "Longueur",
+        "widthCm": "Largeur",
+        "heightCm": "Hauteur",
+        "photos": "Photos (URLs)",
+        "materialsTitle": "Matériaux",
+        "materialName": "Matériau",
+        "materialPercentage": "%",
+        "addMaterial": "Ajouter un matériau",
+        "removeMaterial": "Retirer",
+        "submitCreate": "Créer le produit",
+        "submitUpdate": "Enregistrer les changements"
+      },
+      "errors": {
+        "slugTaken": "Ce slug est déjà utilisé",
+        "materialsSumInvalid": "Les matériaux doivent totaliser 100 %",
+        "generic": "Une erreur est survenue"
+      }
+    }
   }
 }

@@ -108,5 +108,67 @@
       "validationFailed": "[À VALIDER PME] تثبت من الحقول",
       "generic": "[À VALIDER PME] صار غلط، اعاود"
     }
+  },
+  "saas": {
+    "nav": {
+      "overview": "[À VALIDER PME] لوحة التحكم",
+      "profile": "[À VALIDER PME] الملف",
+      "products": "[À VALIDER PME] الكتالوغ"
+    },
+    "dashboard": {
+      "title": "[À VALIDER PME] أهلا، {name}",
+      "products": "[À VALIDER PME] منتجات منشورة",
+      "isPublic": "[À VALIDER PME] ملف عام",
+      "yes": "[À VALIDER PME] أيه",
+      "no": "[À VALIDER PME] لا",
+      "manageProfile": "[À VALIDER PME] تحكّم في الملف",
+      "manageProducts": "[À VALIDER PME] تحكّم في الكتالوغ"
+    },
+    "profile": {
+      "titleArtisan": "[À VALIDER PME] ملف الحرفي",
+      "titleTenant": "[À VALIDER PME] ملف المؤسسة",
+      "save": "[À VALIDER PME] حفظ",
+      "saved": "[À VALIDER PME] انحفظ",
+      "saving": "[À VALIDER PME] قعد يحفظ…",
+      "publicArtisan": "[À VALIDER PME] خلّي ملفي ظاهر للمشترين",
+      "story": "[À VALIDER PME] حكايتي",
+      "shortBio": "[À VALIDER PME] تقديم مختصر",
+      "preferredLanguage": "[À VALIDER PME] لغة مفضّلة"
+    },
+    "products": {
+      "title": "[À VALIDER PME] الكتالوغ",
+      "newProduct": "[À VALIDER PME] منتج جديد",
+      "edit": "[À VALIDER PME] تعديل",
+      "delete": "[À VALIDER PME] حذف",
+      "deleteConfirm": "[À VALIDER PME] تنجم تحذف هذا المنتج ؟",
+      "empty": "[À VALIDER PME] ما عندكش منتجات",
+      "form": {
+        "slug": "[À VALIDER PME] رابط (slug)",
+        "title": "[À VALIDER PME] العنوان",
+        "descriptionShort": "[À VALIDER PME] وصف قصير",
+        "descriptionLong": "[À VALIDER PME] وصف طويل",
+        "price": "[À VALIDER PME] السعر",
+        "priceTnd": "[À VALIDER PME] السعر بالدينار",
+        "priceEur": "[À VALIDER PME] السعر باليورو",
+        "weightG": "[À VALIDER PME] الوزن (غ)",
+        "dimensions": "[À VALIDER PME] القياسات (سم)",
+        "lengthCm": "[À VALIDER PME] الطول",
+        "widthCm": "[À VALIDER PME] العرض",
+        "heightCm": "[À VALIDER PME] الارتفاع",
+        "photos": "[À VALIDER PME] صور (روابط)",
+        "materialsTitle": "[À VALIDER PME] المواد",
+        "materialName": "[À VALIDER PME] المادة",
+        "materialPercentage": "[À VALIDER PME] %",
+        "addMaterial": "[À VALIDER PME] زيد مادة",
+        "removeMaterial": "[À VALIDER PME] احذف",
+        "submitCreate": "[À VALIDER PME] أنشئ المنتج",
+        "submitUpdate": "[À VALIDER PME] حفظ التغييرات"
+      },
+      "errors": {
+        "slugTaken": "[À VALIDER PME] الرابط مستعمل",
+        "materialsSumInvalid": "[À VALIDER PME] لازم المجموع 100%",
+        "generic": "[À VALIDER PME] صار غلط"
+      }
+    }
   }
 }

@@ -108,5 +108,67 @@
       "validationFailed": "Please check the required fields",
       "generic": "Something went wrong, please try again"
     }
+  },
+  "saas": {
+    "nav": {
+      "overview": "Dashboard",
+      "profile": "Profile",
+      "products": "Catalogue"
+    },
+    "dashboard": {
+      "title": "Welcome, {name}",
+      "products": "Published products",
+      "isPublic": "Public profile",
+      "yes": "Yes",
+      "no": "No",
+      "manageProfile": "Manage profile",
+      "manageProducts": "Manage catalogue"
+    },
+    "profile": {
+      "titleArtisan": "Artisan profile",
+      "titleTenant": "Business profile",
+      "save": "Save",
+      "saved": "Saved",
+      "saving": "Saving…",
+      "publicArtisan": "Make my profile visible on the marketplace",
+      "story": "My story",
+      "shortBio": "Short bio",
+      "preferredLanguage": "Preferred language"
+    },
+    "products": {
+      "title": "Catalogue",
+      "newProduct": "New product",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleteConfirm": "Delete this product? This cannot be undone.",
+      "empty": "You don't have any products yet.",
+      "form": {
+        "slug": "Slug (URL)",
+        "title": "Title",
+        "descriptionShort": "Short description",
+        "descriptionLong": "Long description",
+        "price": "Price",
+        "priceTnd": "Price TND",
+        "priceEur": "Price EUR",
+        "weightG": "Weight (g)",
+        "dimensions": "Dimensions (cm)",
+        "lengthCm": "Length",
+        "widthCm": "Width",
+        "heightCm": "Height",
+        "photos": "Photos (URLs)",
+        "materialsTitle": "Materials",
+        "materialName": "Material",
+        "materialPercentage": "%",
+        "addMaterial": "Add material",
+        "removeMaterial": "Remove",
+        "submitCreate": "Create product",
+        "submitUpdate": "Save changes"
+      },
+      "errors": {
+        "slugTaken": "This slug is already taken",
+        "materialsSumInvalid": "Materials must sum to 100%",
+        "generic": "Something went wrong"
+      }
+    }
   }
 }

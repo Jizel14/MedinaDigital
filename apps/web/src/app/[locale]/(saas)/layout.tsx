@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { redirect } from '@/i18n/navigation';
 import { getLocale } from 'next-intl/server';
 import { currentUser } from '@/lib/auth/server';
+import { Sidebar } from '@/components/saas/sidebar';
 
 /**
  * SaaS-area layout: dashboard, profile, products. Requires sign-in. If the
@@ -13,5 +14,10 @@ export default async function SaasLayout({ children }: { children: ReactNode }) 
     const locale = await getLocale();
     redirect({ href: '/login', locale });
   }
-  return <main className="min-h-screen bg-white text-stone-900">{children}</main>;
+  return (
+    <div className="flex min-h-screen bg-white text-stone-900">
+      <Sidebar email={me!.user.email} role={me!.user.role} />
+      <main className="flex-1">{children}</main>
+    </div>
+  );
 }
