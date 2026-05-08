@@ -1,0 +1,37 @@
+{
+  "name": "api",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/api/src",
+  "projectType": "application",
+  "tags": ["scope:api"],
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": { "command": "pnpm --filter @medina/api build" }
+    },
+    "start:dev": {
+      "executor": "nx:run-commands",
+      "options": { "command": "pnpm --filter @medina/api start:dev" }
+    },
+    "typecheck": {
+      "executor": "nx:run-commands",
+      "options": { "command": "pnpm --filter @medina/api typecheck" }
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": { "command": "pnpm --filter @medina/api lint" }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": { "command": "pnpm --filter @medina/api test" }
+    },
+    "db:migrate": {
+      "executor": "nx:run-commands",
+      "options": { "command": "pnpm --filter @medina/api db:migrate" }
+    },
+    "db:seed": {
+      "executor": "nx:run-commands",
+      "options": { "command": "pnpm --filter @medina/api db:seed" }
+    }
+  }
+}

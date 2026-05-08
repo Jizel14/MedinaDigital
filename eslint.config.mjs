@@ -19,6 +19,7 @@ export default tseslint.config(
       'archive/**',
       '.superpowers/**',
       'apps/web/node_modules/.cache/**',
+      'apps/api/dist/**',
     ],
   },
   js.configs.recommended,
@@ -35,6 +36,10 @@ export default tseslint.config(
             {
               sourceTag: 'scope:web',
               onlyDependOnLibsWithTags: ['scope:shared', 'scope:ui', 'scope:product', 'scope:i18n'],
+            },
+            {
+              sourceTag: 'scope:api',
+              onlyDependOnLibsWithTags: ['scope:shared'],
             },
             {
               sourceTag: 'scope:product',
