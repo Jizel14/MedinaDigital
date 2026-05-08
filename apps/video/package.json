@@ -1,0 +1,30 @@
+{
+  "name": "@medina/video",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "nx": {
+    "tags": [
+      "scope:video"
+    ]
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion render src/index.ts HeroBackground ../web/public/video/hero.mp4 --codec h264",
+    "build:webm": "remotion render src/index.ts HeroBackground ../web/public/video/hero.webm --codec vp9",
+    "still": "remotion still src/index.ts HeroBackground ../web/public/video/hero-poster.jpg --frame 60",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.300",
+    "@remotion/cli": "^4.0.300",
+    "@remotion/bundler": "^4.0.300"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.3"
+  }
+}

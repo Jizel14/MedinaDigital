@@ -1,0 +1,21 @@
+{
+  "name": "video",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/video/src",
+  "projectType": "application",
+  "tags": ["scope:video"],
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": { "command": "pnpm --filter @medina/video dev" }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": { "command": "pnpm --filter @medina/video build" }
+    },
+    "typecheck": {
+      "executor": "nx:run-commands",
+      "options": { "command": "pnpm --filter @medina/video typecheck" }
+    }
+  }
+}
