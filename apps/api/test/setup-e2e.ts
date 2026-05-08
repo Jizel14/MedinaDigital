@@ -17,7 +17,11 @@ import { Category } from '../src/modules/categories/category.entity';
 loadEnv({ path: resolve(__dirname, '..', '.env.test') });
 
 const apiRoot = resolve(__dirname, '..');
-const xamppMysql = 'C:\\xampp\\mysql\\bin\\mysql.exe';
+// Local Windows dev defaults to XAMPP; CI / Linux use the mysql client from PATH.
+// Override via MYSQL_CLIENT_PATH if your install is somewhere else.
+const xamppMysql =
+  process.env.MYSQL_CLIENT_PATH ??
+  (process.platform === 'win32' ? 'C:\\xampp\\mysql\\bin\\mysql.exe' : 'mysql');
 
 export default async function globalSetup(): Promise<void> {
   const dbName = process.env.MYSQL_DATABASE ?? 'medina_test';
