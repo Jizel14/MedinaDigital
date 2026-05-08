@@ -68,11 +68,15 @@ export function LoginForm() {
         required
         autoComplete="current-password"
       />
-      {error && <p className="text-sm text-red-700">{error}</p>}
+      {error && (
+        <p className="rounded-md border border-[color:var(--color-clay-300)] bg-[color:var(--color-clay-50)] px-3 py-2 text-sm text-[color:var(--color-clay-800)]">
+          {error}
+        </p>
+      )}
       <button
         type="submit"
         disabled={isPending}
-        className="w-full rounded-md bg-stone-900 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-stone-800 disabled:opacity-60"
+        className="w-full rounded-md bg-[color:var(--color-olive-700)] px-4 py-3 text-sm font-semibold text-white shadow-[var(--shadow-soft)] transition hover:bg-[color:var(--color-olive-900)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[color:var(--color-olive-500)] disabled:opacity-60"
       >
         {t('submitLogin')}
       </button>
@@ -89,13 +93,15 @@ function Field(props: {
 }) {
   return (
     <label className="block">
-      <span className="mb-1 block text-sm font-medium text-stone-700">{props.label}</span>
+      <span className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-[color:var(--color-ink-700)]">
+        {props.label}
+      </span>
       <input
         name={props.name}
         type={props.type}
         required={props.required}
         autoComplete={props.autoComplete}
-        className="w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm shadow-sm focus:border-stone-500 focus:outline-none focus:ring-2 focus:ring-stone-200"
+        className="w-full rounded-md border border-[color:var(--color-border)] bg-white/80 px-3 py-2.5 text-sm text-[color:var(--color-ink-900)] shadow-[var(--shadow-soft)] transition focus:border-[color:var(--color-olive-500)] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[color:var(--color-olive-300)]/40"
       />
     </label>
   );
