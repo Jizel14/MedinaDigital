@@ -3,6 +3,7 @@ import type { Locale } from '@medina/shared-types';
 import { CATEGORY_SLUGS, type CategorySlug } from '@medina/shared-types';
 import { Container, Logo } from '@medina/ui';
 import { Link } from '@/i18n/navigation';
+import { currentUser } from '@/lib/auth/server';
 import { LocaleSwitcher } from './locale-switcher';
 
 const NAV_KEY: Record<CategorySlug, string> = {
@@ -14,7 +15,7 @@ const NAV_KEY: Record<CategorySlug, string> = {
 };
 
 export async function SiteHeader({ locale }: { locale: Locale }) {
-  const t = await getTranslations({ locale });
+  const [t, me] = await Promise.all([getTranslations({ locale }), currentUser()]);
 
   return (
     <header
@@ -55,6 +56,21 @@ export async function SiteHeader({ locale }: { locale: Locale }) {
           >
             {t('nav.about')}
           </Link>
+          {me ? (
+            <Link
+              href="/dashboard"
+              className="rounded-md border border-[color:var(--color-ink-900)] px-3 py-1.5 text-sm font-semibold text-[color:var(--color-ink-900)] transition-colors duration-[var(--duration-fast)] hover:bg-[color:var(--color-ink-900)] hover:text-white"
+            >
+              {t('saas.nav.overview')}
+            </Link>
+          ) : (
+            <Link
+              href="/login"
+              className="rounded-md border border-[color:var(--color-ink-900)] px-3 py-1.5 text-sm font-semibold text-[color:var(--color-ink-900)] transition-colors duration-[var(--duration-fast)] hover:bg-[color:var(--color-ink-900)] hover:text-white"
+            >
+              {t('auth.loginTitle')}
+            </Link>
+          )}
           <LocaleSwitcher />
         </div>
       </Container>
