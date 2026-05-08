@@ -9,6 +9,8 @@ import { CountriesModule } from './modules/countries/countries.module';
 import { RegionsModule } from './modules/regions/regions.module';
 import { CategoriesModule } from './modules/categories/categories.module';
 import { AuthModule } from './modules/auth/auth.module';
+import { ArtisansModule } from './modules/artisans/artisans.module';
+import { TenantsModule } from './modules/tenants/tenants.module';
 import { JwtAuthGuard } from './modules/auth/guards/jwt-auth.guard';
 import { HttpExceptionFilter } from './common/filters/http-exception.filter';
 
@@ -33,6 +35,8 @@ import { HttpExceptionFilter } from './common/filters/http-exception.filter';
     RegionsModule,
     CategoriesModule,
     AuthModule,
+    ArtisansModule,
+    TenantsModule,
   ],
   providers: [
     { provide: APP_GUARD, useClass: ThrottlerGuard },
