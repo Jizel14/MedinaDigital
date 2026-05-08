@@ -3,8 +3,10 @@ import { config as loadEnv } from 'dotenv';
 import { DataSource } from 'typeorm';
 import { resolve } from 'node:path';
 
-// Load .env from apps/api/ when running TypeORM CLI
-loadEnv({ path: resolve(__dirname, '../../.env') });
+// Load env from apps/api/. NODE_ENV=test → .env.test (used by jest-e2e),
+// otherwise → .env (dev). Existing process.env vars are NOT overwritten.
+const envFile = process.env.NODE_ENV === 'test' ? '.env.test' : '.env';
+loadEnv({ path: resolve(__dirname, '../../', envFile) });
 
 /**
  * DataSource exported for the TypeORM CLI (migrations, generate, etc.).

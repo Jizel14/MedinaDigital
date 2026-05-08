@@ -129,7 +129,7 @@ export class Init1715000000000 implements MigrationInterface {
       CREATE TABLE \`refresh_tokens\` (
         \`id\` CHAR(26) NOT NULL,
         \`user_id\` CHAR(26) NOT NULL,
-        \`token_hash\` CHAR(60) NOT NULL,
+        \`token_hash\` CHAR(64) NOT NULL,
         \`expires_at\` TIMESTAMP NOT NULL,
         \`revoked_at\` TIMESTAMP NULL,
         \`user_agent\` VARCHAR(255) NULL,

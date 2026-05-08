@@ -1,10 +1,12 @@
 import { Controller, Get, Query } from '@nestjs/common';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
+import { Public } from '../../common/decorators/public.decorator';
 import { RegionsService } from './regions.service';
 import { Region } from './region.entity';
 
 @ApiTags('regions')
 @Controller('regions')
+@Public()
 export class RegionsController {
   constructor(private readonly regions: RegionsService) {}
 
