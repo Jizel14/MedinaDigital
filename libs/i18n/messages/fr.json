@@ -78,5 +78,35 @@
     "notFound": "Page introuvable",
     "notFoundLead": "Nous n'avons pas trouvé ce que vous cherchiez. Retournons à l'accueil.",
     "backHome": "Retour à l'accueil"
+  },
+  "auth": {
+    "signupTitle": "Créer un compte",
+    "loginTitle": "Se connecter",
+    "email": "Adresse email",
+    "password": "Mot de passe",
+    "submitSignup": "Créer mon compte",
+    "submitLogin": "Se connecter",
+    "alreadyHaveAccount": "Déjà inscrit ?",
+    "noAccountYet": "Pas encore de compte ?",
+    "loginLink": "Connectez-vous",
+    "signupLink": "Inscrivez-vous",
+    "roleLabel": "Je suis",
+    "roleArtisan": "Artisan",
+    "rolePmeOwner": "Coopérative / PME",
+    "artisanName": "Nom d'atelier",
+    "businessName": "Nom de l'entreprise",
+    "regionLabel": "Région",
+    "categoryLabel": "Métier principal",
+    "yearsOfPractice": "Années de pratique",
+    "yearFounded": "Année de création",
+    "artisanCount": "Nombre d'artisans",
+    "errors": {
+      "emailTaken": "Un compte existe déjà pour cette adresse",
+      "invalidCredentials": "Email ou mot de passe invalide",
+      "invalidRegion": "Région inconnue",
+      "invalidCategory": "Métier inconnu",
+      "validationFailed": "Vérifiez les champs requis",
+      "generic": "Une erreur est survenue, réessayez"
+    }
   }
 }

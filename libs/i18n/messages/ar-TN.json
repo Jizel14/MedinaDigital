@@ -78,5 +78,35 @@
     "notFound": "[À VALIDER PME] الصفحة موش موجودة",
     "notFoundLead": "[À VALIDER PME] ما لقيناش الي تلوّج عليه. ارجع للدار.",
     "backHome": "[À VALIDER PME] ارجع للدار"
+  },
+  "auth": {
+    "signupTitle": "[À VALIDER PME] إنشاء حساب",
+    "loginTitle": "[À VALIDER PME] تسجيل الدخول",
+    "email": "[À VALIDER PME] البريد الإلكتروني",
+    "password": "[À VALIDER PME] كلمة السر",
+    "submitSignup": "[À VALIDER PME] أنشئ حسابي",
+    "submitLogin": "[À VALIDER PME] دخول",
+    "alreadyHaveAccount": "[À VALIDER PME] عندك حساب ؟",
+    "noAccountYet": "[À VALIDER PME] ما عندكش حساب ؟",
+    "loginLink": "[À VALIDER PME] دخول",
+    "signupLink": "[À VALIDER PME] سجّل",
+    "roleLabel": "[À VALIDER PME] أنا",
+    "roleArtisan": "[À VALIDER PME] حرفي",
+    "rolePmeOwner": "[À VALIDER PME] تعاونية / مؤسسة",
+    "artisanName": "[À VALIDER PME] اسم الورشة",
+    "businessName": "[À VALIDER PME] اسم المؤسسة",
+    "regionLabel": "[À VALIDER PME] الجهة",
+    "categoryLabel": "[À VALIDER PME] الحرفة",
+    "yearsOfPractice": "[À VALIDER PME] سنين الخدمة",
+    "yearFounded": "[À VALIDER PME] سنة التأسيس",
+    "artisanCount": "[À VALIDER PME] عدد الحرفية",
+    "errors": {
+      "emailTaken": "[À VALIDER PME] هذا الإيميل مستعمل",
+      "invalidCredentials": "[À VALIDER PME] إيميل ولا كلمة سر غالطة",
+      "invalidRegion": "[À VALIDER PME] جهة موش معروفة",
+      "invalidCategory": "[À VALIDER PME] حرفة موش معروفة",
+      "validationFailed": "[À VALIDER PME] تثبت من الحقول",
+      "generic": "[À VALIDER PME] صار غلط، اعاود"
+    }
   }
 }

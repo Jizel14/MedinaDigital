@@ -78,5 +78,35 @@
     "notFound": "Page not found",
     "notFoundLead": "We can't find what you were looking for. Let's go back home.",
     "backHome": "Back to home"
+  },
+  "auth": {
+    "signupTitle": "Create an account",
+    "loginTitle": "Sign in",
+    "email": "Email address",
+    "password": "Password",
+    "submitSignup": "Create my account",
+    "submitLogin": "Sign in",
+    "alreadyHaveAccount": "Already have an account?",
+    "noAccountYet": "No account yet?",
+    "loginLink": "Sign in",
+    "signupLink": "Sign up",
+    "roleLabel": "I am",
+    "roleArtisan": "An artisan",
+    "rolePmeOwner": "A cooperative / business owner",
+    "artisanName": "Workshop name",
+    "businessName": "Business name",
+    "regionLabel": "Region",
+    "categoryLabel": "Main craft",
+    "yearsOfPractice": "Years of practice",
+    "yearFounded": "Year founded",
+    "artisanCount": "Number of artisans",
+    "errors": {
+      "emailTaken": "An account already exists for this email",
+      "invalidCredentials": "Invalid email or password",
+      "invalidRegion": "Unknown region",
+      "invalidCategory": "Unknown craft",
+      "validationFailed": "Please check the required fields",
+      "generic": "Something went wrong, please try again"
+    }
   }
 }
